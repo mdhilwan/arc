@@ -1,0 +1,23 @@
+{
+  "name": "arc",
+  "version": "1.0.0",
+  "description": "Animal Research Cycle",
+  "main": "index.js",
+  "dependencies": {
+    "@angular/cli": "^14.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mdhilwan/arc.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mdhilwan/arc/issues"
+  },
+  "homepage": "https://github.com/mdhilwan/arc#readme"
+}
