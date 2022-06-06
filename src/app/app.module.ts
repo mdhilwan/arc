@@ -12,7 +12,11 @@ import { MatButtonModule } from "@angular/material/button";
 import { ReactiveFormsModule } from "@angular/forms";
 import { DashboardComponent } from './page/dashboard/dashboard.component';
 import { KanbanBoardComponent } from './component/kanban-board/kanban-board.component';
-import {MatSidenavModule} from "@angular/material/sidenav";
+import { MatSidenavModule } from "@angular/material/sidenav";
+import { HeaderComponent } from './component/header/header.component';
+import { MatToolbarModule } from "@angular/material/toolbar";
+import { MatListModule } from "@angular/material/list";
+import { SideNavComponent } from './component/side-nav/side-nav.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +25,8 @@ import {MatSidenavModule} from "@angular/material/sidenav";
     LoginFormComponent,
     DashboardComponent,
     KanbanBoardComponent,
+    HeaderComponent,
+    SideNavComponent
   ],
   imports: [
     BrowserModule,
@@ -30,7 +36,9 @@ import {MatSidenavModule} from "@angular/material/sidenav";
     AppRoutingModule,
     ReactiveFormsModule,
     BrowserAnimationsModule,
-    MatSidenavModule
+    MatSidenavModule,
+    MatToolbarModule,
+    MatListModule
   ],
   providers: [],
   bootstrap: [AppComponent]
