@@ -4,7 +4,12 @@ $total-boards: 6;
 $total-boards-less-one: $total-boards - 1;
 
 .content {
-  padding: 2rem 1rem;
+  padding: 1rem 1rem;
+  height: calc(100% - 7rem);
+}
+
+.all-boards {
+  height: 100%;
 }
 
 .single-board {
@@ -16,6 +21,7 @@ $total-boards-less-one: $total-boards - 1;
   vertical-align: top;
   background-color: #ebeff5;
   margin-right: $board-margin;
+  height: 100%;
 
   &:not(:last-child):not(:first-child) {
     border-left: 0;

@@ -1,45 +1,37 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { CdkDragDrop, moveItemInArray, transferArrayItem } from '@angular/cdk/drag-drop';
 import { animalInterface } from '../../interface/animal.interface';
 import { purposeTagInterface } from '../../interface/purposeTag.interface';
+import { AnimalDataService } from '../../service/animal-data.service';
 
 @Component({
   selector: 'app-kanban-board',
   templateUrl: './kanban-board.component.html',
   styleUrls: ['./kanban-board.component.scss']
 })
-export class KanbanBoardComponent {
+export class KanbanBoardComponent implements OnInit {
 
   purposeA: purposeTagInterface = {
     purpose: 'CPP',
-    label: 'CPP'
+    description: 'CPP practice / retro virus'
   }
 
   purposeTags: purposeTagInterface[] = [this.purposeA]
 
-  animal: animalInterface = {
-    animalNumber: '1',
-    sex: 'M',
-    parent: '2',
-    cageNumber: 'cage 2',
-    location: 'loc 2',
-    purposeTag: this.purposeA,
-    dob: new Date()
-  }
-
-  newAnimals: animalInterface[] = [this.animal, this.animal];
-
+  newAnimals: animalInterface[] = [];
   inProgressAnimals: animalInterface[] = [];
-
   sacrificedAnimals: animalInterface[] = [];
-
   sectionedAnimals: animalInterface[] = [];
-
   mountedAnimals: animalInterface[] = [];
-
   cryoProtectAnimals: animalInterface[] = [];
 
-  constructor() { }
+  constructor(private animalDataService: AnimalDataService) { }
+
+  ngOnInit() {
+    this.animalDataService.getData$().subscribe(data => {
+      console.log(data);
+    })
+  }
 
   drop(event: CdkDragDrop<animalInterface[]>) {
     if (event.previousContainer === event.container) {

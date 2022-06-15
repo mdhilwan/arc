@@ -16,11 +16,12 @@ import { MatSidenavModule } from '@angular/material/sidenav';
 import { HeaderComponent } from './component/header/header.component';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatListModule } from '@angular/material/list';
-import { SideNavComponent } from './component/side-nav/side-nav.component';
 import { DragDropModule } from '@angular/cdk/drag-drop';
 import { AnimalCardComponent } from './component/kanban-board/animal-card/animal-card.component';
-import {MatButtonToggleModule} from "@angular/material/button-toggle";
-import {MatIconModule} from "@angular/material/icon";
+import { MatButtonToggleModule } from '@angular/material/button-toggle';
+import { MatIconModule } from '@angular/material/icon';
+import { MatMenuModule } from '@angular/material/menu';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,6 @@ import {MatIconModule} from "@angular/material/icon";
     DashboardComponent,
     KanbanBoardComponent,
     HeaderComponent,
-    SideNavComponent,
     AnimalCardComponent
   ],
   imports: [
@@ -46,7 +46,9 @@ import {MatIconModule} from "@angular/material/icon";
     MatListModule,
     DragDropModule,
     MatButtonToggleModule,
-    MatIconModule
+    HttpClientModule,
+    MatIconModule,
+    MatMenuModule
   ],
   providers: [],
   bootstrap: [AppComponent]
