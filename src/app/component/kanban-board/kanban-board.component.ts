@@ -1,8 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { CdkDragDrop, moveItemInArray, transferArrayItem } from '@angular/cdk/drag-drop';
-import { animalInterface } from '../../interface/animal.interface';
-import { purposeTagInterface } from '../../interface/purposeTag.interface';
+import { AnimalInterface } from '../../interface/animalInterface';
 import { AnimalDataService } from '../../service/animal-data.service';
+import { AnimalModel } from '../model/animal.model';
 
 @Component({
   selector: 'app-kanban-board',
@@ -11,29 +11,22 @@ import { AnimalDataService } from '../../service/animal-data.service';
 })
 export class KanbanBoardComponent implements OnInit {
 
-  purposeA: purposeTagInterface = {
-    purpose: 'CPP',
-    description: 'CPP practice / retro virus'
-  }
-
-  purposeTags: purposeTagInterface[] = [this.purposeA]
-
-  newAnimals: animalInterface[] = [];
-  inProgressAnimals: animalInterface[] = [];
-  sacrificedAnimals: animalInterface[] = [];
-  sectionedAnimals: animalInterface[] = [];
-  mountedAnimals: animalInterface[] = [];
-  cryoProtectAnimals: animalInterface[] = [];
+  newAnimals: AnimalModel[] = [];
+  inProgressAnimals: AnimalModel[] = [];
+  sacrificedAnimals: AnimalModel[] = [];
+  sectionedAnimals: AnimalModel[] = [];
+  mountedAnimals: AnimalModel[] = [];
+  cryoProtectAnimals: AnimalModel[] = [];
 
   constructor(private animalDataService: AnimalDataService) { }
 
-  ngOnInit() {
-    this.animalDataService.getData$().subscribe(data => {
-      console.log(data);
-    })
+  async ngOnInit() {
+    this.animalDataService.getData$().subscribe((data: AnimalInterface[]) => {
+      this.generateAnimalModels(data);
+    });
   }
 
-  drop(event: CdkDragDrop<animalInterface[]>) {
+  drop(event: CdkDragDrop<AnimalModel[]>) {
     if (event.previousContainer === event.container) {
       moveItemInArray(
         event.container.data,
@@ -50,4 +43,19 @@ export class KanbanBoardComponent implements OnInit {
     }
   }
 
+  private generateAnimalModels(data: AnimalInterface[]) {
+    if (data && data.length) {
+      for (let i = 0; i < data.length; i++) {
+        let animal = new AnimalModel(data[i]);
+        console.log(animal);
+        this.funnelAnimalModelsIntoSwimLanes(animal);
+      }
+    }
+  }
+
+  private funnelAnimalModelsIntoSwimLanes(animal: AnimalModel) {
+    if (animal.doneSacrificed) {
+      this.sacrificedAnimals.push(animal);
+    }
+  }
 }

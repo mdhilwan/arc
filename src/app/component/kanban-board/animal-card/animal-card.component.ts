@@ -1,5 +1,5 @@
-import {Component, HostBinding, Input} from '@angular/core';
-import { animalInterface } from '../../../interface/animal.interface';
+import { Component, HostBinding, Input } from '@angular/core';
+import { AnimalModel } from '../../model/animal.model';
 
 @Component({
   selector: 'app-animal-card',
@@ -8,7 +8,7 @@ import { animalInterface } from '../../../interface/animal.interface';
 })
 export class AnimalCardComponent {
 
-  @Input() animal: animalInterface | undefined
+  @Input() animal: AnimalModel | undefined
   @HostBinding('class') class = 'animal-card';
 
   constructor() { }

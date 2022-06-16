@@ -34,6 +34,7 @@ $total-boards-less-one: $total-boards - 1;
 
   .animal-list {
     min-height: 60px;
+    height: 100%;
     overflow: hidden;
     display: block;
     padding: 0 3px 4px 2px;
@@ -41,18 +42,10 @@ $total-boards-less-one: $total-boards - 1;
 }
 
 .animal-card {
-  padding: 0.8rem;
-  border-radius: 3px;
   display: flex;
   flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
   box-sizing: border-box;
-  cursor: move;
-  background: white;
-  font-size: 14px;
   margin-bottom: $board-margin;
-  box-shadow: 0 2px 3px 0 rgb(0 0 0 / 20%);
 
   &:last-child {
     margin-bottom: 0;

@@ -1,7 +1,18 @@
-<div class="d-flex d-flex-grow">
-  <mat-icon>library_books</mat-icon>
-  <span>No: {{animal?.animalNumber}}</span>
-</div>
-<div class="d-flex">
-  <span>Parent: {{animal?.parent}}</span>
-</div>
+<!--<div class="d-flex d-flex-grow">-->
+<!--  <mat-icon>library_books</mat-icon>-->
+<!--  <span>No: {{animal?.animalNumber}}</span>-->
+<!--</div>-->
+<!--<div>{{animal?.getComments()}}</div>-->
+<mat-card class="example-card">
+  <mat-card-header>
+    <div mat-card-avatar class="example-header-image">
+
+    </div>
+    <mat-card-title>No. {{animal?.animalNumber}}</mat-card-title>
+<!--    <mat-card-subtitle>{{}}</mat-card-subtitle>-->
+  </mat-card-header>
+  <mat-card-content>
+    <p>Comments: {{animal?.comments}}</p>
+    <p>Sac Date: {{animal?.sacDate}}</p>
+  </mat-card-content>
+</mat-card>
