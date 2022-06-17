@@ -12,6 +12,10 @@ export class AnimalModel {
     return this._data?.['Animal No'];
   }
 
+  get animalNumberInCage(): string | undefined {
+    return this._data?.['Animal No in Cage'];
+  }
+
   get sectionDate(): string | undefined {
     return this._data?.['Section date'];
   }
@@ -44,8 +48,20 @@ export class AnimalModel {
     return !!this._data?.['Surgery date'];
   }
 
+  get cryoprotect(): string {
+    return <string>this._data?.Cryoprotect;
+  }
+
+  get doneCryoprotect(): boolean {
+    return !!this._data?.Cryoprotect;
+  }
+
   get comments(): string {
     return <string>this._data?.Comments;
+  }
+
+  get fdic(): boolean {
+    return this.comments.search(/FDIC/g) > -1;
   }
 
   get parents(): string {

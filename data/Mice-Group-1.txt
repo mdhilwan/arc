@@ -1,6 +1,594 @@
-Animal No	Parents	DOB	Location	Cage No	Animal No	Sex	Purpose	Surgery date	Injection	Comments			Pain model	Sac date	Section date	Mounted	Cryoprotect
-1	WT12-L56	4/17/19	5558C	NP-1	1	M	CPP practice / retro virus	9/6/19	retro AAV2-CAD-GFP and AAV-hSYN-mCherry	"Handling starts 19/8/2019. Animal no. 2, 3 and 5 FDIC after surgery"				10/25/19			
-2	WT12-L56	4/17/19	5558C	NP-1	2	M	CPP practice / retro virus	9/6/19	retro AAV2-CAD-GFP and AAV-hSYN-mCherry	"Handling starts 19/8/2019. Animal no. 2, 3 and 5 FDIC after surgery"				9/8/19			
-3	WT12-L56	4/17/19	5558C	NP-1	3	M	CPP practice / retro virus	9/6/19	retro AAV2-CAD-GFP and AAV-hSYN-mCherry	"Handling starts 19/8/2019. Animal no. 2, 3 and 5 FDIC after surgery"				9/8/19			
-4	WT12-L56	4/17/19	5558C	NP-1	4	M	CPP practice / retro virus	9/6/19	retro AAV2-CAD-GFP and AAV-hSYN-mCherry	"Handling starts 19/8/2019. Animal no. 2, 3 and 5 FDIC after surgery"				10/25/19			
-5	WT12-L56	4/17/19	5558C	NP-1	5	M	CPP practice / retro virus	9/6/19	retro AAV2-CAD-GFP and AAV-hSYN-mCherry	"Handling starts 19/8/2019. Animal no. 2, 3 and 5 FDIC after surgery"				9/8/19			
+Animal No	Parents	DOB	Location	Cage No	Animal No in Cage	Sex	Purpose	Surgery date	Injection	Comments	Pain model	Sac date	Section date	Mounted	Cryoprotect
+1	WT12-L56	4/17/19	5558C	NP-1	1	M	CPP practice / retro virus	9/6/19	retro AAV2-CAD-GFP and AAV-hSYN-mCherry	"Handling starts 19/8/2019. Animal no. 2, 3 and 5 FDIC after surgery"		10/25/19			
+2	WT12-L56	4/17/19	5558C	NP-1	2	M	CPP practice / retro virus	9/6/19	retro AAV2-CAD-GFP and AAV-hSYN-mCherry	"Handling starts 19/8/2019. Animal no. 2, 3 and 5 FDIC after surgery"		9/8/19			
+3	WT12-L56	4/17/19	5558C	NP-1	3	M	CPP practice / retro virus	9/6/19	retro AAV2-CAD-GFP and AAV-hSYN-mCherry	"Handling starts 19/8/2019. Animal no. 2, 3 and 5 FDIC after surgery"		9/8/19			
+4	WT12-L56	4/17/19	5558C	NP-1	4	M	CPP practice / retro virus	9/6/19	retro AAV2-CAD-GFP and AAV-hSYN-mCherry	"Handling starts 19/8/2019. Animal no. 2, 3 and 5 FDIC after surgery"		10/25/19			
+5	WT12-L56	4/17/19	5558C	NP-1	5	M	CPP practice / retro virus	9/6/19	retro AAV2-CAD-GFP and AAV-hSYN-mCherry	"Handling starts 19/8/2019. Animal no. 2, 3 and 5 FDIC after surgery"		9/8/19			
+															
+6	WT5-L57	4/18/19	4440A	11	1	M	Opto -> Self-stim	7/2/19	AAV5-CAMKII-ChR2-YFP	Experiment completed in Lex lab	CFA	9/30/19		Y	Y
+7	WT5-L57	4/18/19	4440A	11	2	M	Self-Stim	7/2/19	AAV5-CAMKII-ChR2-YFP	Have to repurpose due to change in project direction	CFA				
+															
+8	WT(L50)-L69	5/13/19	4440A	12	1	M	Self-Stim	7/19/19	AAV5-CAMKII-ChR2-YFP	Have to repurpose due to change in project direction. Headcap came out		8/15/19			
+9	WT(L50)-L69	5/13/19	4440A			M			Died during surgery						
+10	WT(L50)-L69	5/13/19	4440A			M			Died during surgery						
+															
+11	WTL68	5/10/19	4440A & 5558C	12	2	M	Self-Stim	7/29/19	AAV5-CAMKII-ChR2-YFP	Have to repurpose due to change in project direction. FDIC after 2 days after FR2		9/23/19			
+12	WTL68	5/10/19	4440A & 5558C	12	3	M	HG & VF	7/29/19	AAV5-CAMKII-ChR2-YFP	Have to repurpose due to change in project direction		10/25/19			
+13	WTL68	5/10/19	4440A & 5558C	NP-2	1	M	CPP Practice / retro virus	9/6/19	retro AAV2-CAD-GFP and AAV-hSYN-mCherry	Handling starts 19/8/2019		10/25/19		Y	
+14	WTL68	5/10/19	4440A & 5558C	NP-2	2	M	CPP Practice / retro virus	9/6/19	retro AAV2-CAD-GFP and AAV-hSYN-mCherry	Handling starts 19/8/2019		10/25/19		Y	
+15	WTL68	5/10/19	4440A & 5558C	NP-2	3	M	CPP Practice / retro virus	9/6/19	retro AAV2-CAD-GFP and AAV-hSYN-mCherry	Handling starts 19/8/2019		10/25/19		Y	
+															
+16	WTL88	6/13/19	4440A	13	1	M	HG & VF			Na•ve.		10/9/19			
+17	WTL88	6/13/19	4440A	13	2	M	HG & VF			Na•ve.		10/9/19			
+															
+18	WTL86	6/17/19	B408	14	1	M	Fiber Photometry	9/6/19	AAV9-CAMKII-GCAMP6f		CFA	12/19/19			
+19	WTL86	6/17/19	B408	14	2	M	Fiber Photometry	9/6/19	AAV9-CAMKII-GCAMP6f		CFA	12/19/19			
+20	WTL86	6/17/19	B408	15	3	M	Self-Stim	9/13/19	AAV5-CAMKII-ChR2-YFP	FDIC		10/7/19			
+21	WTL86	6/17/19	B408	15	4	M	Self-Stim	9/13/19	AAV5-CAMKII-ChR2-YFP	FDIC		10/7/19			
+															
+22	WTL89	6/20/19	4440A	16	1	M	Self-Stim	9/13/19	AAV5-CAMKII-ChR2-YFP			12/19/19			
+23	WTL89	6/20/19	4440A	16	2	M	Self-Stim	9/13/19	AAV5-CAMKII-ChR2-YFP	FDIC		10/7/19			
+24	WTL89	6/20/19	4440A	16	3	M	Self-Stim	9/13/19	AAV5-CAMKII-ChR2-YFP			12/19/19			
+															
+23	W103	7/24/19	5558C	18	1	M	Self-Stim	10/4/19	AAV5-CAMKII-ChR2-YFP			10/7/19			
+24	W103	7/24/19	5558C	18	2	M	Self-Stim	10/4/19	AAV5-CAMKII-ChR2-YFP	FDIC		2/17/20			
+25	W103	7/24/19	5558C	18	3	M	Self-Stim	10/4/19	AAV5-CAMKII-ChR2-YFP			2/17/20			
+															
+26	WT104	8/5/19	5558C	17	1	M	Self-Stim	9/30/19	AAV5-CAMKII-ChR2-YFP	FDIC post-viral injection		10/2/19			
+28	WT104	8/5/19	5558C	17	2	M	Self-Stim	9/30/19	AAV5-CAMKII-ChR2-YFP	FDIC post-viral injection		10/2/19			
+29	WT104	8/5/19	5558C	17	3	M	Self-Stim	9/30/19	AAV5-CAMKII-ChR2-YFP	FDIC post-viral injection		10/2/19			
+30	WT104	8/5/19	5558C	17	4	M	Self-Stim	9/30/19	AAV5-CAMKII-ChR2-YFP			2/17/20			
+31	WT104	8/5/19	5558C	17	5	M	Self-Stim	9/30/19	AAV5-CAMKII-ChR2-YFP	FDIC post-viral injection		10/2/19			
+32			5558C	17	6	M	Self-Stim	10/4/19	AAV5-CAMKII-ChR2-YFP	Hannah's animal		2/17/20			
+															
+33	WT107	8/9/19	5558C	20	1	M	Fiber Photometry	10/13/19	AAV9-CAMKII-GCAMP6f		CFA	10/15/19			
+34	WT107	8/9/19	5558C	20	2	M	Fiber Photometry	10/13/19	AAV9-CAMKII-GCAMP6f	FDIC post-viral injection		12/19/19			
+35	WT107	8/9/19	5558C	21	3	M	Self-Stim	10/13/19	AAV5-CAMKII-ChR2-YFP			2/17/20			
+36	WT107	8/9/19	5558C	21	4	M	Self-Stim	10/13/19	AAV5-CAMKII-ChR2-YFP			2/17/20			
+															
+37	WT107	8/22/19	5558C	22	1	F	Self-Stim	10/13/19	AAV5-CAMKII-ChR2-YFP			2/17/20			
+38	WT107	8/22/19	5558C	22	2	F	Self-Stim	10/13/19	AAV5-CAMKII-ChR2-YFP	FDIC post-viral injection		10/16/19			
+39	WT107	8/22/19	5558C	22	3	F	Self-Stim	10/13/19	AAV5-CAMKII-ChR2-YFP			2/17/20			
+															
+40	WT114	8/22/19	5558C	23	1	M	Self-Stim	10/13/19	AAV5-CAMKII-ChR2-YFP			2/17/20			
+41	WT114	8/22/19	5558C	23	2	M	Self-Stim	10/13/19	AAV5-CAMKII-ChR2-YFP	FDIC post-viral injection		10/16/19			
+42	WT114	8/22/19	5558C	23	3	M	Self-Stim	10/13/19	AAV5-CAMKII-ChR2-YFP			2/17/20			
+43	WT114	8/22/19	5558C	23	4	M	Fiber Photometry	10/13/19	AAV9-CAMKII-GCAMP6f		Saline	12/19/19			
+															
+44	WT118	9/3/19	B408	24	1	M	Fiber Photometry	11/4/19	AAV9-CAMKII-GCAMP6f	FDIC post-viral injection					
+45	WT118	9/3/19	B408	24	2	M	Fiber Photometry	11/4/19	AAV9-CAMKII-GCAMP6f		CFA	12/19/19			
+46	WT118	9/3/19	B408	24	3	M	Fiber Photometry	11/4/19	AAV9-CAMKII-GCAMP6f		Saline				
+47	WT118	9/3/19	B408	24	4	M	Fiber Photometry	11/4/19	AAV9-CAMKII-GCAMP6f	Sac for extra					
+48	WT118	9/3/19	B408	24	5	M	Fiber Photometry	11/4/19	AAV9-CAMKII-GCAMP6f	Sac for extra					
+															
+49	JAX		5558C	25	1	M	Fiber Photometry	12/16/19	AAV9-CAMKII-GCAMP6f		CFA	3/9/20			Y
+50	JAX		5558C	25	2	M	Fiber Photometry	12/16/19	AAV9-CAMKII-GCAMP6f		CFA	3/9/20			Y
+51	JAX		5558C	25	3	M	Fiber Photometry	12/16/19	AAV9-CAMKII-GCAMP6f		Saline	3/9/20			Y
+52	JAX		5558C	25	4	M	Fiber Photometry	12/16/19	AAV9-CAMKII-GCAMP6f		Saline	3/9/20			
+															
+53	JAX		5558C	26	1	M	Fiber Photometry	12/16/19	AAV-CAMKII-GCAMP6f	FDIC post-viral injection		12/17/19			
+54	JAX		5558C	26	2	M	Fiber Photometry	12/16/19	AAV-CAMKII-GCAMP6f		CFA	3/9/20			
+55	JAX		5558C	26	1(R)	M	Fiber Photometry	12/16/19	AAV-CAMKII-GCAMP6f		Saline				
+															
+56	JAX		5558C	27	1	M	Self Stim	12/16/19	AAV-CAMKII-eYFP			3/9/20			
+57	JAX		5558C	27	2	M	Self Stim	12/16/19	AAV-CAMKII-eYFP			3/9/20			
+58	JAX		5558C	27	3	M	Self Stim	12/16/19	AAV-CAMKII-eYFP			3/9/20			
+59	JAX		5558C	27	4	M	Self Stim	12/16/19	AAV-CAMKII-eYFP			3/9/20			
+60	JAX		5558C	27	5	M	Self Stim	12/16/19	AAV-CAMKII-eYFP	FDIC post-viral injection		3/9/20			
+61	JAX		5558C	27	6	M	Self Stim	12/16/19	AAV-CAMKII-eYFP			3/9/20			
+															
+62	JAX		5558C	28	1	M	Self Stim	12/16/19	AAV-CAMKII-CHR2-eYFP			3/9/20			
+63	JAX		5558C	28	2	M	Self Stim	12/16/19	AAV-CAMKII-CHR2-eYFP	FDIC post-viral injection		3/9/20			
+64	JAX		5558C	28	3	M	Self Stim	12/16/19	AAV-CAMKII-CHR2-eYFP			3/9/20			
+65	JAX		5558C	28	4	M	Self Stim	12/16/19	AAV-CAMKII-CHR2-eYFP	FDIC post-viral injection		3/9/20			
+66	JAX		5558C	28	5	M	Self Stim	12/16/19	AAV-CAMKII-CHR2-eYFP	FDIC post-viral injection		3/9/20			
+67	JAX		5558C	28	6	M	Self Stim	12/16/19	AAV-CAMKII-CHR2-eYFP			3/9/20			
+															
+68	JAX		5558C	29	1	M	Self-Stim	1/21/20	AAV-CAMKII-CHR2-eYFP		Saline		12/3/20	12/3/20	
+69	JAX		5558C	29	2	M	Self-Stim	1/21/20	AAV-CAMKII-CHR2-eYFP		CFA		12/3/20	12/3/20	
+70	JAX		5558C	29	3	M	Self-Stim	1/21/20	AAV-CAMKII-CHR2-eYFP		Saline		12/3/20	12/3/20	
+71	JAX		5558C	29	4	M	Self-Stim	1/21/20	AAV-CAMKII-CHR2-eYFP		CFA		12/3/20	12/3/20	
+72	JAX		5558C	29	5	M	Self-Stim	1/21/20	AAV-CAMKII-CHR2-eYFP		Saline				
+															
+73	WTL171		5558C	30	1	M	Self-Stim	1/21/20	AAV-CAMKII-CHR2-eYFP		CFA		11/25/20		
+74	WTL171		5558C	30	2	M	Self-Stim	1/21/20	AAV-CAMKII-CHR2-eYFP		Saline		11/25/20		
+75	WTL171		5558C	30	3	M	Self-Stim	1/21/20	AAV-CAMKII-CHR2-eYFP		CFA		11/25/20		
+															
+76	WTL171		5558C	31	1	M	Self-Stim	1/21/20	AAV-CAMKII-eYFP		CFA		10/27/20	Y	Y
+77	WTL171		5558C	31	2	M	Self-Stim	1/21/20	AAV-CAMKII-eYFP		CFA		10/27/20	Y	Y
+															
+78	WTL169		5558C	32	1	F	Tracing from NAc (Ant)	1/24/20	Cholera-toxin subunit B	Unable to see the CTB. Could be a dilution issue.		2/17/20	3/10/20	Y	Y
+79	WTL169		5558C	32	2	F	Tracing from NAc (Ant)	1/24/20	Cholera-toxin subunit B	Unable to see the CTB. Could be a dilution issue.		2/17/20	3/10/20	Y	Y
+80	WTL169		5558C	32	3	F	Tracing from NAc (Ant)	1/24/20	Cholera-toxin subunit B	Unable to see the CTB. Could be a dilution issue.		2/17/20	3/10/20	Y	Y
+81	WTL169		5558C	32	4	F	Tracing from NAc (Ant)	1/24/20	Cholera-toxin subunit B	Unable to see the CTB. Could be a dilution issue.		2/17/20	3/10/20	Y	Y
+82	WTL169		5558C	32	5	F	Tracing from NAc (Ant)	1/24/20	Cholera-toxin subunit B	Unable to see the CTB. Could be a dilution issue.		2/17/20	3/10/20	Y	Y
+															
+83	WTL150		5558C	33	1	F	Tracing from NAc (post)	1/24/20	Cholera-toxin subunit B for Niko and Kiki	Unable to see the CTB. Could be a dilution issue.		2/17/20	3/10/20	Y	Y
+84	WTL150		5558C	33	2	F	Tracing from NAc (post)	1/24/20	Cholera-toxin subunit B for Niko and Kiki	Unable to see the CTB. Could be a dilution issue.		2/17/20	3/10/20	Y	Y
+85	WTL150		5558C	33	3	F	Tracing from NAc (post)	1/24/20	Cholera-toxin subunit B for Niko and Kiki	Unable to see the CTB. Could be a dilution issue.		2/17/20	3/10/20	Y	Y
+86	WTL150		5558C	33	4	F	Tracing from NAc (post)	1/24/20	Cholera-toxin subunit B for Niko and Kiki	Unable to see the CTB. Could be a dilution issue.		2/17/20	3/10/20	Y	Y
+87	WTL150		5558C	33	5	F	Tracing from NAc (post)	1/24/20	Cholera-toxin subunit B for Niko and Kiki	Unable to see the CTB. Could be a dilution issue.		2/17/20	3/10/20	Y	Y
+															
+88	WTL194	1/11/20	4440A	34	1	M	Self-Stim	3/16/20	AAV-CAMKII-ChR2-eYPF		Saline			Y	Y
+89	WTL194	1/11/20	4440A	34	2	M	Self-Stim	3/16/20	AAV-CAMKII-ChR2-eYPF		Saline			Y	Y
+90	WTL194	1/11/20	4440A	34	3	M	Self-Stim	3/16/20	AAV-CAMKII-ChR2-eYPF		CFA			Y	Y
+91	WTL194	1/11/20	4440A	34	4	M	Self-Stim	3/16/20	AAV-CAMKII-ChR2-eYPF		CFA			Y	Y
+															
+92	WTL194	1/11/20	4440A	35	1	M	Self-Stim	3/16/20	AAV-CAMKII-ChR2-eYPF		CFA			Y	Y
+93	WTL194	1/11/20	4440A	35	2	M	Self-Stim	3/16/20	AAV-CAMKII-ChR2-eYPF		Saline		10/15/20	Y*Not Gd	
+															
+94	WTL196	1/15/20	4440A	36	1	M	Self-Stim	3/16/20	AAV-CAMKII-ChR2-eYPF		Saline		10/15/20	Y*Not Gd	Y
+95	WTL196	1/15/20	4440A	36	2	M	Self-Stim	3/16/20	AAV-CAMKII-ChR2-eYPF		Saline		10/15/20	Y	Y
+96	WTL196	1/15/20	4440A	36	3	M	Self-Stim	3/16/20	AAV-CAMKII-ChR2-eYPF		CFA		10/20/20	Y	Y
+															
+97	WTL198	1/12/20	4440A	37	1	M	Self-Stim	3/16/20	AAV-CAMKII-ChR2-eYPF		Saline		10/20/20	Y	Y
+98	WTL198	1/12/20	4440A	37	2	M	Self-Stim	3/16/20	AAV-CAMKII-ChR2-eYPF		CFA		10/20/20	Y	Y
+99	WTL198	1/12/20	4440A	37	3	M	Self-Stim	3/16/20	AAV-CAMKII-ChR2-eYPF		CFA		10/27/20	Y	Y
+100	WTL198	1/12/20	4440A	37	4	M	Self-Stim	3/16/20	AAV-CAMKII-ChR2-eYPF	FDIC	-	-	-		
+101	WTL198	1/12/20	4440A	37	5	M	Self-Stim	3/16/20	AAV-CAMKII-ChR2-eYPF		CFA		10/27/20	Y	Y
+															
+102	WTL197	1/16/20	4440A	38	1	M	"Stimulation in dHPC, FP in Nac"	3/16/20	"AAV-CAMKII-ChR2-eYPF in dHPC, AAV9-hSYN-Gcamp-GFP in Nac"	recorded SS + FP	-	10/16/20		Y	Y
+103	WTL197	1/16/20	4440A	38	2	M	"Stimulation in dHPC, FP in Nac"	3/16/20	"AAV-CAMKII-ChR2-eYPF in dHPC, AAV9-hSYN-Gcamp-GFP in Nac"	recorded SS + FP	-	10/16/20		Y	Y
+104	WTL197	1/16/20	4440A	38	3	M	"Stimulation in dHPC, FP in Nac"	3/16/20	"AAV-CAMKII-ChR2-eYPF in dHPC, AAV9-hSYN-Gcamp-GFP in Nac"	Did not have response on on FP	-	8/20/20			
+															
+105			5558C	NIL	1		Lei-Dab7 dose test		Cannula implants in dHPC	Did dose test twice on 8June2020 and 9June2020		6/9/20	AZ	"Tissue was sticking, unable to mount"	-
+106			5558C	NIL	2		Lei-Dab7 dose test		Cannula implants in dHPC	Did dose test twice on 8June2020 and 9June2021		6/9/20	AZ	"Tissue was sticking, unable to mount"	-
+107			5558C	NIL	3		Lei-Dab7 dose test		Cannula implants in dHPC	Did dose test twice on 8June2020 and 9June2022		6/9/20	AZ	"Tissue was sticking, unable to mount"	-
+108			5558C	NIL	4		Lei-Dab7 dose test		Cannula implants in dHPC	Did dose test twice on 8June2020 and 9June2023		6/9/20	AZ	"Tissue was sticking, unable to mount"	-
+109			5558C	NIL	5		Lei-Dab7 dose test		Cannula implants in dHPC	Did dose test twice on 8June2020 and 9June2024		6/9/20	AZ	"Tissue was sticking, unable to mount"	-
+110			5558C	NIL	6		Lei-Dab7 dose test		Cannula implants in dHPC	Did dose test twice on 8June2020 and 9June2025		6/9/20	AZ	"Tissue was sticking, unable to mount"	-
+111			5558C	NIL	7		Lei-Dab7 dose test		Cannula implants in dHPC	Did dose test twice on 8June2020 and 9June2026		6/9/20	AZ	"Tissue was sticking, unable to mount"	-
+112			5558C	NIL	8		Lei-Dab7 dose test		Cannula implants in dHPC	Did dose test twice on 8June2020 and 9June2027		6/9/20	AZ	"Tissue was sticking, unable to mount"	-
+113			5558C	NIL	9		Lei-Dab7 dose test		Cannula implants in dHPC	Did dose test twice on 8June2020 and 9June2028		6/9/20	AZ	"Tissue was sticking, unable to mount"	-
+114			5558C	NIL	10		Lei-Dab7 dose test		Cannula implants in dHPC	Did dose test twice on 8June2020 and 9June2029		6/9/20	AZ	"Tissue was sticking, unable to mount"	-
+															
+115	WTL251 &253		5558C	39	1	F	"Stimulation in dHPC, FP in Nac"	6/15/20	"AAV-CAMKII-ChR2-eYPF in dHPC, AAV9-hSYN-Gcamp-GFP in Nac"	Recorded SS + FP		10/16/20	10/27/20	Y	Y
+116	WTL251 &254		5558C	39	2	F	"Stimulation in dHPC, FP in Nac"	6/15/20	"AAV-CAMKII-ChR2-eYPF in dHPC, AAV9-hSYN-Gcamp-GFP in Nac"	FDIC after self stim due to stress		8/14/20	10/27/20	Y	Y
+117	WTL251 &255		5558C	39	3	F	"Stimulation in dHPC, FP in Nac"	6/15/20	"AAV-CAMKII-ChR2-eYPF in dHPC, AAV9-hSYN-Gcamp-GFP in Nac"	"Overly anxious, Sac"	-	7/30/20	-	-	-
+118	WTL251 &256		5558C	39	4	F	"Stimulation in dHPC, FP in Nac"	6/15/20	"AAV-CAMKII-ChR2-eYPF in dHPC, AAV9-hSYN-Gcamp-GFP in Nac"	Recorded SS + FP		10/16/20		Y	Y
+119	WTL251 &257		5558C	39	5	F	"Stimulation in dHPC, FP in Nac"	6/15/20	"AAV-CAMKII-ChR2-eYPF in dHPC, AAV9-hSYN-Gcamp-GFP in Nac"	FDIC	-	-	-	-	-
+															
+120	WTL253 & 254		5558C	40	1	M	"Stimulation in dHPC, FP in Nac"	6/15/20	"AAV-CAMKII-ChR2-eYPF in dHPC, AAV9-hSYN-Gcamp-GFP in Nac"					Y	Y
+121	WTL253 & 254		5558C	40	2	M	"Stimulation in dHPC, FP in Nac"	6/15/20	"AAV-CAMKII-ChR2-eYPF in dHPC, AAV9-hSYN-Gcamp-GFP in Nac"	FDIC		-	-	-	-
+122	WTL253 & 254		5558C	40	3	M	"Stimulation in dHPC, FP in Nac"	6/15/20	"AAV-CAMKII-ChR2-eYPF in dHPC, AAV9-hSYN-Gcamp-GFP in Nac"					Y	Y
+123	WTL253 & 254		5558C	40	4	M	"Stimulation in dHPC, FP in Nac"	6/15/20	"AAV-CAMKII-ChR2-eYPF in dHPC, AAV9-hSYN-Gcamp-GFP in Nac"	Recorded SS + FP		10/16/20		Y	Y
+124	WTL253 & 254		5558C	40	5	M	"Stimulation in dHPC, FP in Nac"	6/15/20	"AAV-CAMKII-ChR2-eYPF in dHPC, AAV9-hSYN-Gcamp-GFP in Nac"					Y	Y
+															
+125	"WTL255,256,257 & 258"		5558C	NIL	21	M	Lei-Dab7 CPP	7/6/20	Cannula Implants			7/24/20	7/27/20	Y	Y
+126	"WTL255,256,257 & 258"		5558C	NIL	22	M	Lei-Dab7 CPP	7/6/20	Cannula Implants					Y	Y
+127	"WTL255,256,257 & 258"		5558C	NIL	23	M	Lei-Dab7 CPP	7/6/20	Cannula Implants					Y	Y
+128	"WTL255,256,257 & 258"		5558C	NIL	24	M	Lei-Dab7 CPP	7/6/20	Cannula Implants					Y	Y
+129	"WTL255,256,257 & 258"		5558C	NIL	25	M	Lei-Dab7 CPP	7/6/20	Cannula Implants					Y	Y
+130	"WTL255,256,257 & 258"		5558C	NIL	26	M	Lei-Dab7 CPP	7/6/20	Cannula Implants					Y	Y
+131	"WTL255,256,257 & 258"		5558C	NIL	27	M	Lei-Dab7 CPP	7/6/20	Cannula Implants					Y	Y
+132	"WTL255,256,257 & 258"		5558C	NIL	28	M	Lei-Dab7 CPP	7/6/20	Cannula Implants					Y	Y
+133	"WTL255,256,257 & 258"		5558C	NIL	29	M	Lei-Dab7 CPP	7/6/20	Cannula Implants	FDIC		-	-	-	-
+134	"WTL255,256,257 & 258"		5558C	NIL	30	M	Lei-Dab7 CPP	7/6/20	Cannula Implants			7/24/20	7/27/20	Y	Y
+135	"WTL255,256,257 & 258"		5558C	NIL	31	M	Lei-Dab7 CPP	7/6/20	Cannula Implants					Y	Y
+136	"WTL255,256,257 & 258"		5558C	NIL	32	M	Lei-Dab7 CPP	7/6/20	Cannula Implants					Y	Y
+137	"WTL255,256,257 & 258"		5558C	NIL	33	M	Lei-Dab7 CPP	7/6/20	Cannula Implants	FDIC		-	-	-	-
+138	"WTL255,256,257 & 258"		5558C	NIL	34	M	Lei-Dab7 CPP	7/6/20	Cannula Implants			7/24/20	7/27/20	Y	Y
+139	"WTL255,256,257 & 258"		5558C	NIL	35	M	Lei-Dab7 CPP	7/6/20	Cannula Implants	FDIC		-	-	-	-
+140	"WTL255,256,257 & 258"		5558C	NIL	36	M	Lei-Dab7 CPP	7/6/20	Cannula Implants			7/24/20	7/27/20	Y	Y
+															
+141	JAX		5558C	NIL	37	M	Lei-Dab7 CPP		Cannula Implants			8/20/20	9/4/20	Y	Y
+142	JAX		5558C	NIL	38	M	Lei-Dab7 CPP		Cannula Implants			8/20/20	9/4/20	Y	Y
+143	JAX		5558C	NIL	39	M	Lei-Dab7 CPP		Cannula Implants			8/20/20	9/4/20	Y	Y
+144	JAX		5558C	NIL	40	M	Lei-Dab7 CPP		Cannula Implants			8/20/20	9/4/20	Y	Y
+145	JAX		5558C	NIL	41	M	Lei-Dab7 CPP		Cannula Implants			8/20/20	9/4/20	Y	Y
+146	JAX		5558C	NIL	42	M	Lei-Dab7 CPP		Cannula Implants			8/20/20	9/4/20	Y	Y
+147	JAX		5558C	NIL	43	M	Lei-Dab7 CPP		Cannula Implants			8/20/20	9/4/20	Y	Y
+148	JAX		5558C	NIL	45	M	Lei-Dab7 CPP		Cannula Implants			8/20/20	9/4/20	Y	Y
+149	JAX		5558C	NIL	46	M	Lei-Dab7 CPP		Cannula Implants			8/20/20	9/4/20	Y	Y
+150	JAX		5558C	NIL	47	M	Lei-Dab7 CPP		Cannula Implants	FDIC	-	-	-	-	-
+151	JAX		5558C	NIL	48	M	Lei-Dab7 CPP		Cannula Implants			8/20/20	9/7/20	Y	Y
+152	JAX		5558C	NIL	48	M	Lei-Dab7 CPP		Cannula Implants			8/20/20	9/7/20	Y	Y
+153	JAX		5558C	NIL	49	M	Lei-Dab7 CPP		Cannula Implants			8/20/20	9/7/20	Y	Y
+154	JAX		5558C	NIL	50	M	Lei-Dab7 CPP		Cannula Implants			8/20/20	9/7/20	Y	Y
+155	JAX		5558C	NIL	51	M	Lei-Dab7 CPP		Cannula Implants			8/20/20	9/7/20	Y	Y
+156	JAX		5558C	NIL	52	M	Lei-Dab7 CPP		Cannula Implants	FDIC	-	-	-	-	-
+															
+157	JAX		5558C	NIL	53	M	Lei-Dab7 CPP	9/1/20	Cannula Implants	FDIC	-	-	-	-	-
+158	JAX		5558C	NIL	54	M	Lei-Dab7 CPP	9/1/20	Cannula Implants			9/18/20		Y	Y
+159	JAX		5558C	NIL	55	M	Lei-Dab7 CPP	9/1/20	Cannula Implants			9/18/20		Y	Y
+160	JAX		5558C	NIL	56	M	Lei-Dab7 CPP	9/1/20	Cannula Implants	FDIC	-	-	-	-	-
+161	JAX		5558C	NIL	57	M	Lei-Dab7 CPP	9/1/20	Cannula Implants	FDIC	-	-	-	-	-
+162	JAX		5558C	NIL	58	M	Lei-Dab7 CPP	9/1/20	Cannula Implants	FDIC	-	-	-	-	-
+163	JAX		5558C	NIL	59	M	Lei-Dab7 CPP	9/1/20	Cannula Implants			9/18/20		Y	Y
+164	JAX		5558C	NIL	60	M	Lei-Dab7 CPP	9/1/20	Cannula Implants	FDIC	-	-	-	-	-
+165	JAX		5558C	NIL	61	M	Lei-Dab7 CPP	9/1/20	Cannula Implants			9/18/20		Y	Y
+166	JAX		5558C	NIL	62	M	Lei-Dab7 CPP	9/1/20	Cannula Implants			9/18/20		Y	Y
+167	JAX		5558C	NIL	63	M	Lei-Dab7 CPP	9/1/20	Cannula Implants			9/18/20		Y	Y
+168	JAX		5558C	NIL	64	M	Lei-Dab7 CPP	9/1/20	Cannula Implants			9/18/20		Y	Y
+169	JAX		5558C	NIL	65	M	Lei-Dab7 CPP	9/1/20	Cannula Implants	FDIC	-	-	-	-	-
+170	JAX		5558C	NIL	66	M	Lei-Dab7 CPP	9/1/20	Cannula Implants	FDIC	-	-	-	-	-
+171	JAX		5558C	NIL	67	M	Lei-Dab7 CPP	9/1/20	Cannula Implants			9/18/20		Y	Y
+172	JAX		5558C	NIL	68	M	Lei-Dab7 CPP	9/1/20	Cannula Implants			9/18/20		Y	Y
+															
+173	JAX		5558C	41	1	M	"Stimulation in dHPC, FP in Nac"	8/31/20	"AAV-CAMKII-ChR2-eYPF in dHPC, AAV9-hSYN-Gcamp-GFP in Nac"	FDIC	-	-	-	-	-
+174	JAX		5558C	41	2	M	"Stimulation in dHPC, FP in Nac"	8/31/20	"AAV-CAMKII-ChR2-eYPF in dHPC, AAV9-hSYN-Gcamp-GFP in Nac"			12/4/20	12/21/20	Y	
+175	JAX		5558C	41	3	M	"Stimulation in dHPC, FP in Nac"	8/31/20	"AAV-CAMKII-ChR2-eYPF in dHPC, AAV9-hSYN-Gcamp-GFP in Nac"	FDIC	-	-	-	-	-
+176	JAX		5558C	41	4	M	"Stimulation in dHPC, FP in Nac"	8/31/20	"AAV-CAMKII-ChR2-eYPF in dHPC, AAV9-hSYN-Gcamp-GFP in Nac"	FDIC	-	-	-	-	-
+177	JAX		5558C	41	5	M	"Stimulation in dHPC, FP in Nac"	8/31/20	"AAV-CAMKII-ChR2-eYPF in dHPC, AAV9-hSYN-Gcamp-GFP in Nac"	FDIC	-	-	-	-	-
+178	WTL273		5558C	41	6	M	"Stimulation in dHPC, FP in Nac"	8/31/20	"AAV-CAMKII-ChR2-eYPF in dHPC, AAV9-hSYN-Gcamp-GFP in Nac"	FDIC	-	-	-	-	-
+															
+179	JAX		5558C	42	1	M	"Stimulation in dHPC, FP in Nac (CONTROL)"	8/31/20	"AAV-CAMKII-ChR2-eYPF in dHPC, AAV9-hSYN-eGFP in Nac"	FDIC	-	-	-	-	-
+180	JAX		5558C	42	2	M	"Stimulation in dHPC, FP in Nac (CONTROL)"	8/31/20	"AAV-CAMKII-ChR2-eYPF in dHPC, AAV9-hSYN-eGFP in Nac"			12/4/20	12/21/20	Y	
+181	JAX		5558C	42	3	M	"Stimulation in dHPC, FP in Nac (CONTROL)"	8/31/20	"AAV-CAMKII-ChR2-eYPF in dHPC, AAV9-hSYN-eGFP in Nac"	FDIC	-	-	-	-	-
+182	JAX		5558C	42	4	M	"Stimulation in dHPC, FP in Nac (CONTROL)"	8/31/20	"AAV-CAMKII-ChR2-eYPF in dHPC, AAV9-hSYN-eGFP in Nac"	FDIC	-	-	-	-	-
+183	JAX		5558C	42	5	M	"Stimulation in dHPC, FP in Nac (CONTROL)"	8/31/20	"AAV-CAMKII-ChR2-eYPF in dHPC, AAV9-hSYN-eGFP in Nac"	FDIC	-	-	-	-	-
+184	WTL262		5558C	42	6	M	"Stimulation in dHPC, FP in Nac (CONTROL)"	8/31/20	"AAV-CAMKII-ChR2-eYPF in dHPC, AAV9-hSYN-eGFP in Nac"	FDIC	-	-	-	-	-
+															
+185	JAX		5558C	NIL	69	M	Lei-Dab7 CPP	9/1/20	Cannula Implants	FDIC	-	-	-	-	-
+186	JAX		5558C	NIL	70	M	Lei-Dab7 CPP	9/1/20	Cannula Implants	FDIC	-	-	-	-	-
+187	JAX		5558C	NIL	71	M	Lei-Dab7 CPP	9/1/20	Cannula Implants	FDIC	-	-	-	-	-
+188	JAX		5558C	NIL	72	M	Lei-Dab7 CPP	9/1/20	Cannula Implants	FDIC	-	-	-	-	-
+189	JAX		5558C	NIL	73	M	Lei-Dab7 CPP	9/1/20	Cannula Implants			10/16/20	10/19/20	Y	Y
+190	JAX		5558C	NIL	74	M	Lei-Dab7 CPP	9/1/20	Cannula Implants			10/16/20	10/19/20	Y	Y
+191	JAX		5558C	NIL	75	M	Lei-Dab7 CPP	9/1/20	Cannula Implants	FDIC	-	-	-	-	-
+192	JAX		5558C	NIL	76	M	Lei-Dab7 CPP	9/1/20	Cannula Implants	FDIC	-	-	-	-	-
+193	JAX		5558C	NIL	77	M	Lei-Dab7 CPP	9/1/20	Cannula Implants	FDIC	-	-	-	-	-
+194	JAX		5558C	NIL	78	M	Lei-Dab7 CPP	9/1/20	Cannula Implants			10/16/20	10/19/20	Y	Y
+195	JAX		5558C	NIL	79	M	Lei-Dab7 CPP	9/1/20	Cannula Implants			10/16/20	10/19/20		
+196	JAX		5558C	NIL	80	M	Lei-Dab7 CPP	9/1/20	Cannula Implants	FDIC	-	-	-	-	-
+197	JAX		5558C	NIL	81	M	Lei-Dab7 CPP	9/1/20	Cannula Implants	FDIC	-	-	-	-	-
+198	JAX		5558C	NIL	82	M	Lei-Dab7 CPP	9/1/20	Cannula Implants			10/16/20	10/19/20	Y	Y
+199	JAX		5558C	NIL	83	M	Lei-Dab7 CPP	9/1/20	Cannula Implants			10/16/20	10/19/20	Y	Y
+200	JAX		5558C	NIL	84	M	Lei-Dab7 CPP	9/1/20	Cannula Implants			10/16/20	10/19/20	Y	Y
+															
+201	WTL289		5558C	43	1	M	"Stimulation in dHPC, FP in Nac (CONTROL)"	10/5/20	"AAV-CAMKII-ChR2-eYPF in dHPC, AAV9-hSYN-eGFP in Nac"			12/10/20	12/14/20	Y	Y
+202	WTL289		5558C	43	2	M	"Stimulation in dHPC, FP in Nac (CONTROL)"	10/5/20	"AAV-CAMKII-ChR2-eYPF in dHPC, AAV9-hSYN-eGFP in Nac"			12/10/20	12/14/20	Y	Y
+203	WTL289		5558C	43	3	M	"Stimulation in dHPC, FP in Nac (CONTROL)"	10/5/20	"AAV-CAMKII-ChR2-eYPF in dHPC, AAV9-hSYN-eGFP in Nac"			12/10/20	12/14/20	Y	Y
+204	WTL289		5558C	43	4	M	"Stimulation in dHPC, FP in Nac (CONTROL)"	10/5/20	"AAV-CAMKII-ChR2-eYPF in dHPC, AAV9-hSYN-eGFP in Nac"			12/10/20	12/14/20	Y	Y
+205	WTL288		5558C	43	5	M	"Stimulation in dHPC, FP in Nac (CONTROL)"	10/5/20	"AAV-CAMKII-ChR2-eYPF in dHPC, AAV9-hSYN-eGFP in Nac"			12/10/20	12/14/20	Y	Y
+															
+206	WTL290		5558C	44	1	M	"Stimulation in dHPC, FP in Nac"	10/5/20	"AAV-CAMKII-ChR2-eYPF in dHPC, AAV9-hSYN-Gcamp-GFP in Nac"			12/10/20	12/15/20	Y	Y
+207					2	M						12/10/20	12/15/20	Y	Y
+208	WTL291				3	M						12/10/20	12/15/20	Y	Y
+209					4	M						12/10/20	12/15/20	Y	Y
+210					5	M						12/10/20	12/15/20	Y	Y
+															
+210	JAX		5558C	NIL	85		Lei-Dab7 CPP		Cannula Implants			10/29/20	11/3/20	Y	Y
+211	JAX		5558C	NIL	86		Lei-Dab7 CPP		Cannula Implants	FDIC	-	-	-	-	-
+212	JAX		5558C	NIL	87		Lei-Dab7 CPP		Cannula Implants	FDIC	-	-	-	-	-
+213	JAX		5558C	NIL	88		Lei-Dab7 CPP		Cannula Implants	FDIC	-	-	-	-	-
+214	JAX		5558C	NIL	89		Lei-Dab7 CPP		Cannula Implants			10/29/20	11/3/20	Y	Y
+215	JAX		5558C	NIL	90		Lei-Dab7 CPP		Cannula Implants			10/29/20	11/3/20	Y	Y
+216	JAX		5558C	NIL	91		Lei-Dab7 CPP		Cannula Implants			10/29/20	11/3/20	Y	Y
+217	JAX		5558C	NIL	92		Lei-Dab7 CPP		Cannula Implants	FDIC	-	-	-	-	-
+218	JAX		5558C	NIL	93		Lei-Dab7 CPP		Cannula Implants			10/29/20	11/3/20	Y	Y
+219	JAX		5558C	NIL	94		Lei-Dab7 CPP		Cannula Implants			10/29/20	11/3/20	Y	Y
+220	JAX		5558C	NIL	95		Lei-Dab7 CPP		Cannula Implants			10/29/20	11/3/20	Y	Y
+221	JAX		5558C	NIL	96		Lei-Dab7 CPP		Cannula Implants			10/29/20	11/3/20	Y	Y
+222	JAX		5558C	NIL	97		Lei-Dab7 CPP		Cannula Implants			10/29/20	11/3/20	Y	Y
+223	JAX		5558C	NIL	98		Lei-Dab7 CPP		Cannula Implants	FDIC	-	-	-	-	-
+224	JAX		5558C	NIL	99		Lei-Dab7 CPP		Cannula Implants	FDIC	-	-	-	-	-
+225	JAX		5558C	NIL	100		Lei-Dab7 CPP		Cannula Implants	FDIC	-	-	-	-	-
+226	JAX		5558C	NIL	101		Lei-Dab7 CPP		Cannula Implants			10/29/20	11/3/20	Y	Y
+227	JAX		5558C	NIL	102		Lei-Dab7 CPP		Cannula Implants			10/29/20	11/3/20	Y	Y
+228	JAX		5558C	NIL	103		Lei-Dab7 CPP		Cannula Implants			10/29/20	11/3/20	Y	Y
+229	JAX		5558C	NIL	104		Lei-Dab7 CPP		Cannula Implants			10/29/20	11/3/20	Y	Y
+															
+230	WTL296		5558C	45	1	M	"Stimulation in dHPC, FP in Nac"	10/27/20	"AAV-CAMKII-eYPF in dHPC (CONTROL), AAV9-hSYN-Gcamp-GFP in Nac"			12/10/20	12/15/20	Y	Y
+231	WTL296		5558C	45	2	M	"Stimulation in dHPC, FP in Nac"	10/27/20	"AAV-CAMKII-eYPF in dHPC (CONTROL), AAV9-hSYN-Gcamp-GFP in Nac"	Overly Anxious	-	12/4/20	12/21/20	Y	-
+232	WTL296		5558C	45	3	M	"Stimulation in dHPC, FP in Nac"	10/27/20	"AAV-CAMKII-eYPF in dHPC (CONTROL), AAV9-hSYN-Gcamp-GFP in Nac"			12/10/20	12/15/20	Y	Y
+233	WTL297		5558C	45	4	M	"Stimulation in dHPC, FP in Nac"	10/27/20	"AAV-CAMKII-eYPF in dHPC (CONTROL), AAV9-hSYN-Gcamp-GFP in Nac"			12/10/20	12/15/20	Y	Y
+234	WTL297		5558C	45	5	M	"Stimulation in dHPC, FP in Nac"	10/27/20	"AAV-CAMKII-eYPF in dHPC (CONTROL), AAV9-hSYN-Gcamp-GFP in Nac"			12/10/20	12/15/20	Y	Y
+235	WTL297		5558C	45	6	M	"Stimulation in dHPC, FP in Nac"	10/27/20	"AAV-CAMKII-eYPF in dHPC (CONTROL), AAV9-hSYN-Gcamp-GFP in Nac"			12/10/20	12/15/20	Y	Y
+															
+236	WTL295		5558C	46	1	M	"Stimulation in dHPC, FP in Nac"	10/27/20	"AAV-CAMKII-ChR2-eYFP in dHPC, AAV9-hSYN-GcAMP-GFP in Nac"	Headcap came out		12/2/20	12/21/20	-	Y
+237	WTL295		5558C	46	2	M	"Stimulation in dHPC, FP in Nac"	10/27/20	"AAV-CAMKII-ChR2-eYFP in dHPC, AAV9-hSYN-GcAMP-GFP in Nac"			1/11/21	1/15/21	1/20/21	Y
+238	WTL295		5558C	46	3	M	"Stimulation in dHPC, FP in Nac"	10/27/20	"AAV-CAMKII-ChR2-eYFP in dHPC, AAV9-hSYN-GcAMP-GFP in Nac"			1/11/21	1/15/21	1/20/21	Y
+239	WTL295		5558C	46	4	M	"Stimulation in dHPC, FP in Nac"	10/27/20	"AAV-CAMKII-ChR2-eYFP in dHPC, AAV9-hSYN-GcAMP-GFP in Nac"			1/11/21	1/15/21	1/20/21	Y
+															
+240	WTL294		5558C	47	1	M	Cannula/Elec combo for SK2	10/28/20	Cannula/Elec combo in dHPC	FDIC		-	-	-	-
+241	WTL294		5558C	47	2	M	Cannula/Elec combo for SK2	10/28/20	Cannula/Elec combo in dHPC	Anxious		2/16/21	2/23/21	2/26/21	Y
+															
+242	WTL299		5558C		105	M	Lei-Dab7 CPP	11/12/20	Cannula Implants			12/4/20	12/8/21	12/9/21	Y
+243	WTL299		5558C		106	M	Lei-Dab7 CPP	11/12/20	Cannula Implants	FDIC	-	-	-	-	-
+244	WTL299		5558C		107	M	Lei-Dab7 CPP	11/12/20	Cannula Implants	FDIC	-	-	-	-	-
+245	WTL299		5558C		108	M	Lei-Dab7 CPP	11/12/20	Cannula Implants	Sac for excessive grooming	-	-	-	-	-
+															
+246	WTL303		5558C		109	M	Lei-Dab7 CPP	11/18/20	Cannula Implants			12/4/20	12/8/21	12/9/21	Y
+247	WTL303		5558C		110	M	Lei-Dab7 CPP	11/18/20	Cannula Implants	FDIC	-	-	-	-	-
+248	WTL303		5558C		111	M	Lei-Dab7 CPP	11/18/20	Cannula Implants			12/4/20	12/8/21	12/9/21	Y
+249	WTL306		5558C		112	M	Lei-Dab7 CPP	11/18/20	Cannula Implants			12/4/20	12/8/21	12/9/21	Y
+															
+250	WTL313	10/19/20	5558C	48	1	M	Cannula/Elec combo for SK2	12/22/20	Cannula/Elec combo in dHPC			2/16/21	2/23/21	2/25/21	Y
+251	WTL313	10/19/20	5558C	48	2	M	Cannula/Elec combo for SK2	12/22/20	Cannula/Elec combo in dHPC			2/16/21	2/23/21	2/25/21	Y
+252	WTL313	10/19/20	5558C	48	3	M	Cannula/Elec combo for SK2	12/22/20	Cannula/Elec combo in dHPC			2/16/21	2/23/21	2/25/21	Y
+253	WTL314	23/20/2020	5558C	48	4	M	Cannula/Elec combo for SK2	12/22/20	Cannula/Elec combo in dHPC	Headcap came out		1/11/21	2/24/21	2/26/21	Y
+254	WTL314	23/20/2020	5558C	48	5	M	Cannula/Elec combo for SK2	12/22/20	Cannula/Elec combo in dHPC			2/16/21	2/24/21	2/26/21	Y
+255	WTL314	23/20/2020	5558C	48	6	M	Cannula/Elec combo for SK2	12/22/20	Cannula/Elec combo in dHPC	Headcap came out		1/11/21	2/24/21	2/26/21	Y
+															
+256	WTL309	10/10/20	5558C	49	1	M	"Stimulation in SuM, FP in NAc"	1/5/21	"AAV-CAMKII-ChR2-eYFP in dHPC, AAV9-hSYN-GcAMP-GFP in Nac, fibers in SuM and NAc"				3/2/21	3/4/21	Y
+257	WTL309	10/10/20	5558C	49	2	M	"Stimulation in SuM, FP in NAc"	1/5/21	"AAV-CAMKII-ChR2-eYFP in dHPC, AAV9-hSYN-GcAMP-GFP in Nac, fibers in SuM and NAc"				3/2/21	3/4/21	Y
+258	WTL309	10/10/20	5558C	49	3	M	"Stimulation in SuM, FP in NAc"	1/5/21	"AAV-CAMKII-ChR2-eYFP in dHPC, AAV9-hSYN-GcAMP-GFP in Nac, fibers in SuM and NAc"	Control in dHPC			3/3/21	3/4/21	Y
+259	WTL309	10/10/20	5558C	49	4	M	"Stimulation in SuM, FP in NAc"	1/5/21	"AAV-CAMKII-ChR2-eYFP in dHPC, AAV9-hSYN-GcAMP-GFP in Nac, fibers in SuM and NAc"	Control in dHPC			3/3/21	3/4/21	Y
+260	WTL309	10/10/20	5558C	49	5	M	"Stimulation in SuM, FP in NAc"	1/5/21	"AAV-CAMKII-ChR2-eYFP in dHPC, AAV9-hSYN-GcAMP-GFP in Nac, fibers in SuM and NAc"				3/3/21	3/4/21	Y
+															
+261	WTL310	10/1/20	5558C	50	1	M	"Stimulation in SuM, FP in NAc"	1/5/21	"AAV-CAMKII-ChR2-eYFP in dHPC, AAV9-hSYN-GcAMP-GFP in Nac, fibers in SuM and NAc"				3/3/21	3/4/21	Y
+262	WTL310	10/1/20	5558C	50	2	M	"Stimulation in SuM, FP in NAc"	1/5/21	"AAV-CAMKII-ChR2-eYFP in dHPC, AAV9-hSYN-GcAMP-GFP in Nac, fibers in SuM and NAc"	Control in dHPC (FDIC)	-	-	-	-	-
+263	WTL310	10/1/20	5558C	50	3	M	"Stimulation in SuM, FP in NAc"	1/5/21	"AAV-CAMKII-ChR2-eYFP in dHPC, AAV9-hSYN-GcAMP-GFP in Nac, fibers in SuM and NAc"	Control in dHPC			3/3/21	3/4/21	Y
+264	WTL310	10/1/20	5558C	50	4	M	"Stimulation in SuM, FP in NAc"	1/5/21	"AAV-CAMKII-ChR2-eYFP in dHPC, AAV9-hSYN-GcAMP-GFP in Nac, fibers in SuM and NAc"				3/3/21	3/4/21	Y
+															
+265	WTL311	10/10/20	5558C	51	1	M	"Stimulation in SuM, FP in NAc"	1/5/21	"AAV-CAMKII-ChR2-eYFP in dHPC, AAV9-hSYN-GcAMP-GFP in Nac, fibers in SuM and NAc"				3/3/21	3/4/21	Y
+266	WTL311	10/10/20	5558C	51	2	M	"Stimulation in SuM, FP in NAc"	1/5/21	"AAV-CAMKII-ChR2-eYFP in dHPC, AAV9-hSYN-GcAMP-GFP in Nac, fibers in SuM and NAc"				3/3/21	3/4/21	Y
+267	WTL311	10/10/20	5558C	51	3	M	"Stimulation in SuM, FP in NAc"	1/5/21	"AAV-CAMKII-ChR2-eYFP in dHPC, AAV9-hSYN-GcAMP-GFP in Nac, fibers in SuM and NAc"	Control in dHPC			3/3/21	3/8/21	Y
+268	WTL311	10/10/20	5558C	51	4	M	"Stimulation in SuM, FP in NAc"	1/5/21	"AAV-CAMKII-ChR2-eYFP in dHPC, AAV9-hSYN-GcAMP-GFP in Nac, fibers in SuM and NAc"	Control in dHPC (FDIC)	-	-	-	-	-
+															
+269	WTL312	10/14/20	5558C	52	1	M	"Stimulation in SuM, FP in NAc"	1/5/21	"AAV-CAMKII-ChR2-eYFP in dHPC, AAV9-hSYN-GcAMP-GFP in Nac, fibers in SuM and NAc"				3/3/21	4/27/21	Y
+270	WTL312	10/14/20	5558C	52	2	M	"Stimulation in SuM, FP in NAc"	1/5/21	"AAV-CAMKII-ChR2-eYFP in dHPC, AAV9-hSYN-GcAMP-GFP in Nac, fibers in SuM and NAc"	Control in dHPC			3/3/21	4/27/21	Y
+271	WTL312	10/14/20	5558C	52	3	M	"Stimulation in SuM, FP in NAc"	1/5/21	"AAV-CAMKII-ChR2-eYFP in dHPC, AAV9-hSYN-GcAMP-GFP in Nac, fibers in SuM and NAc"	Control in dHPC			3/3/21	4/27/21	Y
+272	WTL315	10/21/20	5558C	53	1	M	"Stimulation in SuM, FP in NAc"	1/5/21	"AAV-CAMKII-ChR2-eYFP in dHPC, AAV9-hSYN-GcAMP-GFP in Nac, fibers in SuM and NAc"				3/3/21	4/27/21	Y
+272	WTL315	10/21/20	5558C	53	2	M	"Stimulation in SuM, FP in NAc"	1/5/21	"AAV-CAMKII-ChR2-eYFP in dHPC, AAV9-hSYN-GcAMP-GFP in Nac, fibers in SuM and NAc"	Control DIED	-	-	-	-	-
+															
+273	WTL322	11/13/20	5558C	54	1	M	Cannula/Elec combo for SK2	1/21/21	Cannula/Elec combo in dHPC			2/16/21	2/24/21	3/1/21	Y
+274	WTL322	11/13/20	5558C	54	2	M	Cannula/Elec combo for SK2	1/21/21	Cannula/Elec combo in dHPC			2/16/21	2/24/21	3/1/21	Y
+275	WTL322	11/13/20	5558C	54	3	M	Cannula/Elec combo for SK2	1/21/21	Cannula/Elec combo in dHPC			2/16/21	2/24/21	3/1/21	Y
+276	WTL322	11/13/20	5558C	54	4	M	Cannula/Elec combo for SK2	1/21/21	Cannula/Elec combo in dHPC			2/16/21	2/24/21	2/25/21	Y
+277	WTL322	11/13/20	5558C	54	5	M	Cannula/Elec combo for SK2	1/21/21	Cannula/Elec combo in dHPC	1/24/21	-	-	-	-	-
+278	WTL322	11/13/20	5558C	54	6	M	Cannula/Elec combo for SK2	1/21/21	Cannula/Elec combo in dHPC	1/24/21	-	-	-	-	-
+279	WTL322	11/13/20	5558C	54	7	M	Cannula/Elec combo for SK2	1/21/21	Cannula/Elec combo in dHPC			2/16/21	2/24/21	2/26/21	Y
+															
+280	WTL331	12/10/20	5558C	55	1	M	"Stimulation in dHPC, FP in Nac"	1/9/21	"AAV-CAMKII-ChR2-eYFP in dHPC, AAV9-hSYN-GcAMP-GFP in Nac"		Saline	5/21/21			
+281	WTL331	12/10/20	5558C	55	2	M	"Stimulation in dHPC, FP in Nac"	1/9/21	"AAV-CAMKII-ChR2-eYFP in dHPC, AAV9-hSYN-GcAMP-GFP in Nac"	FDIC	-	-	-	-	-
+282	WTL331	12/10/20	5558C	55	3	M	"Stimulation in dHPC, FP in Nac"	1/9/21	"AAV-CAMKII-ChR2-eYFP in dHPC, AAV9-hSYN-GcAMP-GFP in Nac"	FDIC	-	-	-	-	-
+283	WTL331	12/10/20	5558C	55	4	M	"Stimulation in dHPC, FP in Nac"	1/9/21	"AAV-CAMKII-ChR2-eYFP in dHPC, AAV9-hSYN-GcAMP-GFP in Nac"		CFA	5/21/21			
+															
+284	WTL331	12/10/20	5558C	56	1	M	"Stimulation in dHPC, FP in Nac"	1/9/21	"AAV-CAMKII-ChR2-eYFP in dHPC, AAV9-hSYN-GcAMP-GFP in Nac"		Saline	5/21/21			
+285	WTL331	12/10/20	5558C	56	2	M	"Stimulation in dHPC, FP in Nac"	1/9/21	"AAV-CAMKII-ChR2-eYFP in dHPC, AAV9-hSYN-GcAMP-GFP in Nac"	FDIC	-	-	-	-	-
+286	WTL331	12/10/20	5558C	56	3	M	"Stimulation in dHPC, FP in Nac"	1/9/21	"AAV-CAMKII-ChR2-eYFP in dHPC, AAV9-hSYN-GcAMP-GFP in Nac"		CFA	5/21/21			
+287	WTL328	11/28/20	5558C	56	4	M	"Stimulation in dHPC, FP in Nac"	1/9/21	"AAV-CAMKII-ChR2-eYFP in dHPC, AAV9-hSYN-GcAMP-GFP in Nac"	FDIC	-	-	-	-	-
+															
+288	WTL332	12/10/20	5558C	57	1	M	"Stimulation in dHPC, FP in Nac"	1/9/21	"AAV-CAMKII-ChR2-eYFP in dHPC, AAV9-hSYN-GcAMP-GFP in Nac"	FDIC	-	-	-	-	-
+289	WTL332	12/10/20	5558C	57	2	M					Saline	5/21/21			
+290	WTL332	12/10/20	5558C	57	3	M				FDIC	-	-	-	-	-
+291	WTL332	12/10/20	5558C	57	4	M					CFA	5/21/21			
+															
+292	WTL324	11/16/20	5558C	58	1	M	Cannula/ Electro combo + CPP	2/16/21	Cannula / Electrode combo in dHPC			4/7/21	4/19/21	4/19/21	Y
+293	WTL324	11/16/20	5558C	58	2	M						4/7/21	4/19/21	4/19/21	Y
+294	WTL324	11/16/20	5558C	58	3	M						4/7/21	4/19/21	4/19/21	Y
+295	WTL324	11/16/20	5558C	58	4	M						4/7/21	4/19/21	4/21/21	Y
+296	WTL324	11/16/20	5558C	58	5	M						4/7/21	4/19/21	4/21/21	Y
+															
+297	WTL327	11/23/20	5558C	59	1	M	Viral tracing from MS to dHPC	2/25/21	CAMKII-eYPF in MS			4/7/21	4/21/21	4/23/21	Y
+298	WTL327	11/23/20	5558C	59	2	M						4/7/21	4/21/21	4/23/21	Y
+299	WTL327	11/23/20	5558C	59	3	M						4/7/21	4/21/21	4/23/21	Y
+300	WTL327	11/23/20	5558C	59	4	M						4/7/21	4/21/21	4/23/21	Y
+301	WTL327	11/23/20	5558C	59	5	M				FDIC		4/7/21	-	-	-
+															
+302	WTL337	12/16/20	5558C	60	1	M	Viral tracing from dHPC for Hannah's IHC	3/1/21	CAMKII-eYPF in MS			4/7/21	4/14/21	Brain passed to Hannah after slicing.	-
+303	WTL337	12/16/20	5558C	60	2	M						4/7/21	4/14/21		-
+304	WTL337	12/16/20	5558C	60	3	M						4/7/21	4/14/21		-
+305	WTL338	12/16/20	5558C	60	4	M						4/7/21	4/15/21		-
+306	WTL338	12/16/20	5558C	60	5	M						4/7/21	4/15/21		-
+															
+307	WTL365	2/8/21	5558C	61	1	M	Cannula/ Electro combo + CPP	4/6/21	Cannula / Electrode combo in dHPC	FDIC	-	-	-	-	-
+308	WTL365	2/8/21	5558C	61	2	M	Cannula/ Electro combo + CPP	4/6/21	Cannula / Electrode combo in dHPC	FDIC	-	-	-	-	-
+309	WTL365	2/8/21	5558C	61	3	M	Cannula/ Electro combo + CPP	4/6/21	Cannula / Electrode combo in dHPC			5/7/21			Y
+310	WTL365	2/8/21	5558C	61	4	M	Cannula/ Electro combo + CPP	4/6/21	Cannula / Electrode combo in dHPC	FDIC	-	-	-	-	-
+311	WTL365	2/8/21	5558C	61	5	M	Cannula/ Electro combo + CPP	4/6/21	Cannula / Electrode combo in dHPC			5/7/21			Y
+312	WTL364	2/2/21	5558C	61	1R	M	Cannula/ Electro combo + CPP	4/8/21	Cannula / Electrode combo in dHPC			5/7/21			Y
+313	WTL364	2/2/21	5558C	61	2R	M	Cannula/ Electro combo + CPP	4/8/21	Cannula / Electrode combo in dHPC			5/7/21			Y
+314	WTL364	2/2/21	5558C	61	4R	M	Cannula/ Electro combo + CPP	4/8/21	Cannula / Electrode combo in dHPC			5/7/21			Y
+															
+315	WTL376	3/7/21	5558C	62	1	M	Cannula/ Electro combo + CPP	5/10/21	Cannula / Electrode combo in dHPC			6/3/21	6/7/21	6/7/21	Y
+316	WTL376	3/7/21	5558C	62	2	M	Cannula/ Electro combo + CPP	5/10/21	Cannula / Electrode combo in dHPC			6/3/21	6/7/21	6/7/21	Y
+317	WTL376	3/7/21	5558C	62	3	M	Cannula/ Electro combo + CPP	5/10/21	Cannula / Electrode combo in dHPC			6/3/21	6/7/21	6/7/21	Y
+318	WTL376	3/7/21	5558C	62	4	M	Cannula/ Electro combo + CPP	5/10/21	Cannula / Electrode combo in dHPC			6/3/21	6/7/21	6/7/21	Y
+319	WTL376	3/7/21	5558C	62	5	M	Cannula/ Electro combo + CPP	5/10/21	Cannula / Electrode combo in dHPC			6/3/21	6/7/21	6/7/21	Y
+															
+320	WTL358	1/30/21	5558C	63	1	M	Viral tracing in the MS	5/11/21	AAV-hSYN-eGFP in the MS			6/10/21			
+321	WTL358	1/30/21	5558C	63	2	M	Viral tracing in the MS	5/11/21	AAV-hSYN-eGFP in the MS			6/10/21	6/14/21	6/15/21	Y
+322	WTL358	1/30/21	5558C	63	3	M	Viral tracing in the MS	5/11/21	AAV-hSYN-eGFP in the MS			6/10/21	6/14/21	6/15/21	Y
+323	WTL358	1/30/21	5558C	63	4	M	Viral tracing in the MS	5/11/21	AAV-hSYN-eGFP in the MS			6/10/21	6/14/21	6/15/21	Y
+															
+324	WRL379	3/16/21	5558C	64	1	M	RTPT +CFA	5/17/21	AAV-CaMKII-ChR2 in dHPC	Done with Sulan		7/23/21	7/26/21	7/28/21	Y
+325	WRL379	3/16/21	5558C	64	2	M	RTPT +CFA	5/17/21	AAV-CaMKII-ChR2 in dHPC	Done with Sulan		7/23/21	7/26/21	7/28/21	Y
+															
+326	WTL380	3/17/21	5558C	65	1	M	RTPT + CFA	5/17/21	AAV-CaMKII-ChR2 in dHPC	Done with Sulan		7/23/21	7/26/21	7/28/21	Y
+327	WTL380	3/17/21	5558C	65	2	M	RTPT + CFA	5/17/21	AAV-CaMKII-ChR2 in dHPC	Done with Sulan		7/23/21	7/26/21	7/28/21	Y
+328	WTL380	3/17/21	5558C	65	3	M	RTPT + CFA	5/17/21	AAV-CaMKII-ChR2 in dHPC	Done with Sulan		7/23/21	7/26/21	7/28/21	Y
+329	WTL380	3/17/21	5558C	65	4	M	RTPT + CFA	5/17/21	AAV-CaMKII-ChR2 in dHPC	Done with Sulan		7/23/21	7/26/21	7/28/21	Y
+330	WTL380	3/17/21	5558C	65	5	M	RTPT + CFA	5/17/21	AAV-CaMKII-ChR2 in dHPC	Done with Sulan		7/23/21	7/26/21	7/28/21	Y
+															
+331	WTL381	3/20/21	5558C	66	1	M	RTPT + CFA	5/17/21	AAV-CaMKII-ChR2 in dHPC	Done with Sulan		7/23/21	7/26/21	7/28/21	Y
+332	WTL381	3/20/21	5558C	66	2	M	RTPT + CFA	5/17/21	AAV-CaMKII-ChR2 in dHPC	Done with Sulan		7/23/21	7/26/21	7/28/21	Y
+333	WTL381	3/20/21	5558C	66	3	M	RTPT + CFA	5/17/21	AAV-CaMKII-ChR2 in dHPC	Done with Sulan		7/23/21	7/26/21	7/28/21	Y
+334	WTL381	3/20/21	5558C	66	4	M	RTPT + CFA	5/17/21	AAV-CaMKII-ChR2 in dHPC	Done with Sulan		7/23/21	7/26/21	7/28/21	Y
+335	WTL381	3/20/21	5558C	66	5	M	RTPT + CFA	5/17/21	AAV-CaMKII-ChR2 in dHPC	Done with Sulan		7/23/21	7/26/21	7/28/21	Y
+															
+356	WTL383	3/22/21	5558C	67	1	M	Cannula/ Electro combo + CPP	6/8/21	Cannula / Electrode combo in dHPC			Y	7/8/21	7/12/21	Y
+357	WTL383	3/22/21	5558C	67	2	M	Cannula/ Electro combo + CPP	6/8/21	Cannula / Electrode combo in dHPC			Y	7/8/21	7/12/21	Y
+358	WTL383	3/22/21	5558C	67	3	M	Cannula/ Electro combo + CPP	6/8/21	Cannula / Electrode combo in dHPC			Y	7/8/21	7/12/21	Y
+359	WTL383	3/22/21	5558C	67	4	M	Cannula/ Electro combo + CPP	6/8/21	Cannula / Electrode combo in dHPC			Y	7/8/21	7/12/21	Y
+360	WTL383	3/22/21	5558C	67	5	M	Cannula/ Electro combo + CPP	6/8/21	Cannula / Electrode combo in dHPC			Y	7/8/21	7/12/21	Y
+															
+361	WTL389	3/28/21	5558C	68	1	M	"stim in the dHPC, FP in the NAc. CFA vs Sal"	6/22/21	"AAV-CAMKII-ChR2-eYFP in dHPC, AAV9-hSYN-GcAMP-GFP in Nac; Sulan did viral and Nisa did fibers"		Saline	Y			
+362	WTL389	3/28/21	5558C	68	2	M	"stim in the dHPC, FP in the NAc. CFA vs Sal"	6/22/21	"AAV-CAMKII-ChR2-eYFP in dHPC, AAV9-hSYN-GcAMP-GFP in Nac; Sulan did viral and Nisa did fibers"	Replaced with WTL392	CFA	Y			
+363	WTL390	3/28/21	5558C	68	3	M	"stim in the dHPC, FP in the NAc. CFA vs Sal"	6/22/21	"AAV-CAMKII-ChR2-eYFP in dHPC, AAV9-hSYN-GcAMP-GFP in Nac; Sulan did viral and Nisa did fibers"		Saline	Y			
+364	WTL390	3/28/21	5558C	68	4	M	"stim in the dHPC, FP in the NAc. CFA vs Sal"	6/22/21	"AAV-CAMKII-ChR2-eYFP in dHPC, AAV9-hSYN-GcAMP-GFP in Nac; Sulan did viral and Nisa did fibers"	Died post-CFA injection	-	-	-	-	-
+365	WTL391	3/29/21	5558C	69	1	M	"stim in the dHPC, FP in the NAc. CFA vs Sal"	6/22/21	"AAV-CAMKII-ChR2-eYFP in dHPC, AAV9-hSYN-GcAMP-GFP in Nac; Sulan did viral and Nisa did fibers"		CFA	Y			
+366	WTL391	3/29/21	5558C	69	2	M	"stim in the dHPC, FP in the NAc. CFA vs Sal"	6/22/21	"AAV-CAMKII-ChR2-eYFP in dHPC, AAV9-hSYN-GcAMP-GFP in Nac; Sulan did viral and Nisa did fibers"		CFA	Y			
+367	WTL391	3/29/21	5558C	69	3	M	"stim in the dHPC, FP in the NAc. CFA vs Sal"	6/22/21	"AAV-CAMKII-ChR2-eYFP in dHPC, AAV9-hSYN-GcAMP-GFP in Nac; Sulan did viral and Nisa did fibers"	Sac due to laceration on skin	-	-	-	-	-
+368	WTL391	3/29/21	5558C	69	4	M	"stim in the dHPC, FP in the NAc. CFA vs Sal"	6/22/21	"AAV-CAMKII-ChR2-eYFP in dHPC, AAV9-hSYN-GcAMP-GFP in Nac; Sulan did viral and Nisa did fibers"	FDIC	-	-	-	-	-
+369	WTL391	3/29/21	5558C	69	5	M	"stim in the dHPC, FP in the NAc. CFA vs Sal"	6/22/21	"AAV-CAMKII-ChR2-eYFP in dHPC, AAV9-hSYN-GcAMP-GFP in Nac; Sulan did viral and Nisa did fibers"	FDIC	-	-	-	-	-
+370	WTL391	3/29/21	5558C	69	6	M	"stim in the dHPC, FP in the NAc. CFA vs Sal"	6/22/21	"AAV-CAMKII-ChR2-eYFP in dHPC, AAV9-hSYN-GcAMP-GFP in Nac; Sulan did viral and Nisa did fibers"		Saline	Y			
+															
+362	WTL429	6/16/21	5558C	70	1	F	"stim in the dHPC, FP in the NAc. CFA vs Sal"	8/17/21	"AAV-CAMKII-ChR2-eYFP in dHPC, AAV9-hSYN-GcAMP-GFP in Nac; Sulan did viral and Nisa did fibers"		Saline	Y			
+363	WTL429	6/16/21	5558C	70	2	F	"stim in the dHPC, FP in the NAc. CFA vs Sal"	8/17/21	"AAV-CAMKII-ChR2-eYFP in dHPC, AAV9-hSYN-GcAMP-GFP in Nac; Sulan did viral and Nisa did fibers"		CFA	Y			
+364	WTL429	6/16/21	5558C	70	3	F	"stim in the dHPC, FP in the NAc. CFA vs Sal"	8/17/21	"AAV-CAMKII-ChR2-eYFP in dHPC, AAV9-hSYN-GcAMP-GFP in Nac; Sulan did viral and Nisa did fibers"		Saline	Y			
+365	WTL429	6/16/21	5558C	70	4	F	"stim in the dHPC, FP in the NAc. CFA vs Sal"	8/17/21	"AAV-CAMKII-ChR2-eYFP in dHPC, AAV9-hSYN-GcAMP-GFP in Nac; Sulan did viral and Nisa did fibers"		CFA	Y			
+366	WTL429	6/16/21	5558C	70	5	F	"stim in the dHPC, FP in the NAc. CFA vs Sal"	8/17/21	"AAV-CAMKII-ChR2-eYFP in dHPC, AAV9-hSYN-GcAMP-GFP in Nac; Sulan did viral and Nisa did fibers"		Saline	Y			
+367	WTL427	6/11/21	5558C	70	6	F	"stim in the dHPC, FP in the NAc. CFA vs Sal"	8/17/21	"AAV-CAMKII-ChR2-eYFP in dHPC, AAV9-hSYN-GcAMP-GFP in Nac; Sulan did viral and Nisa did fibers"		CFA	Y			
+368	WTL428	6/16/21	5558C	71	1	M	"stim in the dHPC, FP in the NAc. CFA vs Sal"	8/17/21	"AAV-CAMKII-ChR2-eYFP in dHPC, AAV9-hSYN-GcAMP-GFP in Nac; Sulan did viral and Nisa did fibers"		Saline	Y			
+369	WTL430	6/17/21	5558C	71	2	F	"stim in the dHPC, FP in the NAc. CFA vs Sal"	8/17/21	"AAV-CAMKII-ChR2-eYFP in dHPC, AAV9-hSYN-GcAMP-GFP in Nac; Sulan did viral and Nisa did fibers"		CFA	Y			
+370	WTL430	6/17/21	5558C	71	3	F	"stim in the dHPC, FP in the NAc. CFA vs Sal"	8/17/21	"AAV-CAMKII-ChR2-eYFP in dHPC, AAV9-hSYN-GcAMP-GFP in Nac; Sulan did viral and Nisa did fibers"		CFA	Y			
+															
+371			5558C	72	1	F	Stim in the dHPC and Gi in the MS	8/9/21	"AAV-CAMKII-ChR2-eYFP in dHPC, AAV-CaMKII-GiDREADD-mcherry in MS; Sulan did viral and Nisa did fibers"		-	Y			
+372			5558C	72	2	F	Stim in the dHPC and Gi in the MS	8/9/21	"AAV-CAMKII-ChR2-eYFP in dHPC, AAV-CaMKII-GiDREADD-mcherry in MS; Sulan did viral and Nisa did fibers"		-	Y			
+373			5558C	72	3	F	Stim in the dHPC and Gi in the MS	8/9/21	"AAV-CAMKII-ChR2-eYFP in dHPC, AAV-CaMKII-GiDREADD-mcherry in MS; Sulan did viral and Nisa did fibers"		-	Y			
+374			5558C	72	4	M	Stim in the dHPC and Gi in the MS	8/9/21	"AAV-CAMKII-ChR2-eYFP in dHPC, AAV-CaMKII-GiDREADD-mcherry in MS; Sulan did viral and Nisa did fibers"		-	Y			
+375			5558C	72	5	M	Stim in the dHPC and Gi in the MS	8/9/21	"AAV-CAMKII-ChR2-eYFP in dHPC, AAV-CaMKII-GiDREADD-mcherry in MS; Sulan did viral and Nisa did fibers"		-	Y			
+376			5558C	72	6	F	Stim in the dHPC and Gi in the MS	8/9/21	"AAV-CAMKII-ChR2-eYFP in dHPC, AAV-CaMKII-GiDREADD-mcherry in MS; Sulan did viral and Nisa did fibers"		-	Y			
+377			5558C	72	7	F	Stim in the dHPC and Gi in the MS	8/9/21	"AAV-CAMKII-ChR2-eYFP in dHPC, AAV-CaMKII-GiDREADD-mcherry in MS; Sulan did viral and Nisa did fibers"		-	Y			
+378			5558C	72	8	F	Stim in the dHPC and Gi in the MS	8/9/21	"AAV-CAMKII-ChR2-eYFP in dHPC, AAV-CaMKII-GiDREADD-mcherry in MS; Sulan did viral and Nisa did fibers"		-	Y			
+379			5558C	72	9	F	Stim in the dHPC and Gi in the MS	8/9/21	"AAV-CAMKII-ChR2-eYFP in dHPC, AAV-CaMKII-GiDREADD-mcherry in MS; Sulan did viral and Nisa did fibers"		-	Y			
+380			5558C	72	10	F	Stim in the dHPC and Gi in the MS	8/9/21	"AAV-CAMKII-ChR2-eYFP in dHPC, AAV-CaMKII-GiDREADD-mcherry in MS; Sulan did viral and Nisa did fibers"		-	Y			
+381			5558C	72	11	M	Stim in the dHPC and Gi in the MS	8/9/21	"AAV-CAMKII-ChR2-eYFP in dHPC, AAV-CaMKII-GiDREADD-mcherry in MS; Sulan did viral and Nisa did fibers"		-	Y			
+															
+381			5558C	73	1	F	Stim in the dHPC and Gi in the MS	8/9/21	"AAV-CAMKII-ChR2-eYFP in dHPC, AAV-CaMKII-GiDREADD-mcherry in MS; Sulan did viral and Nisa did fibers"	Did RTPT but did not see an effect with blocking of MS	-	Y			
+382			5558C	73	2	M	Stim in the dHPC and Gi in the MS	8/9/21	"AAV-CAMKII-ChR2-eYFP in dHPC, AAV-CaMKII-GiDREADD-mcherry in MS; Sulan did viral and Nisa did fibers"	Did RTPT but did not see an effect with blocking of MS	-	Y			
+383			5558C	73	3	M	Stim in the dHPC and Gi in the MS	8/9/21	"AAV-CAMKII-ChR2-eYFP in dHPC, AAV-CaMKII-GiDREADD-mcherry in MS; Sulan did viral and Nisa did fibers"	Did RTPT but did not see an effect with blocking of MS	-	Y			
+384			5558C	73	4	M	Stim in the dHPC and Gi in the MS	8/9/21	"AAV-CAMKII-ChR2-eYFP in dHPC, AAV-CaMKII-GiDREADD-mcherry in MS; Sulan did viral and Nisa did fibers"	Did RTPT but did not see an effect with blocking of MS	-	Y			
+385			5558C	73	5	M	Stim in the dHPC and Gi in the MS	8/9/21	"AAV-CAMKII-ChR2-eYFP in dHPC, AAV-CaMKII-GiDREADD-mcherry in MS; Sulan did viral and Nisa did fibers"	Did RTPT but did not see an effect with blocking of MS	-	Y			
+386			5558C	73	6	M	Stim in the dHPC and Gi in the MS	8/9/21	"AAV-CAMKII-ChR2-eYFP in dHPC, AAV-CaMKII-GiDREADD-mcherry in MS; Sulan did viral and Nisa did fibers"	Did RTPT but did not see an effect with blocking of MS	-	Y			
+387			5558C	73	7	M	Stim in the dHPC and Gi in the MS	8/9/21	"AAV-CAMKII-ChR2-eYFP in dHPC, AAV-CaMKII-GiDREADD-mcherry in MS; Sulan did viral and Nisa did fibers"	Did RTPT but did not see an effect with blocking of MS	-	Y			
+388			5558C	73	8	M	Stim in the dHPC and Gi in the MS	8/9/21	"AAV-CAMKII-ChR2-eYFP in dHPC, AAV-CaMKII-GiDREADD-mcherry in MS; Sulan did viral and Nisa did fibers"	Did RTPT but did not see an effect with blocking of MS	-	Y			
+389			5558C	73	9	F	Stim in the dHPC and Gi in the MS	8/9/21	"AAV-CAMKII-ChR2-eYFP in dHPC, AAV-CaMKII-GiDREADD-mcherry in MS; Sulan did viral and Nisa did fibers"	Did RTPT but did not see an effect with blocking of MS	-	Y			
+390			5558C	73	10	F	Stim in the dHPC and Gi in the MS	8/9/21	"AAV-CAMKII-ChR2-eYFP in dHPC, AAV-CaMKII-GiDREADD-mcherry in MS; Sulan did viral and Nisa did fibers"	Did RTPT but did not see an effect with blocking of MS	-	Y			
+391			5558C	73	11	M	Stim in the dHPC and Gi in the MS	8/9/21	"AAV-CAMKII-ChR2-eYFP in dHPC, AAV-CaMKII-GiDREADD-mcherry in MS; Sulan did viral and Nisa did fibers"	Did RTPT but did not see an effect with blocking of MS	-	Y			
+															
+392			5558C	74	1	M	Stim in the MS and Gi in the dHPC	9/30/21	"AAV-CAMKII-ChR2-eYFP in MS, AAV-CaMKII-GiDREADD-mcherry in dHPC; "	Did RTPT and Self-Stim	-	Y			
+393			5558C	74	2	M	Stim in the MS and Gi in the dHPC	9/30/21	"AAV-CAMKII-ChR2-eYFP in MS, AAV-CaMKII-GiDREADD-mcherry in dHPC; "	Did RTPT and Self-Stim	-	Y			
+394			5558C	74	3	M	Stim in the MS and Gi in the dHPC	9/30/21	"AAV-CAMKII-ChR2-eYFP in MS, AAV-CaMKII-GiDREADD-mcherry in dHPC; "	Did RTPT and Self-Stim	-	Y			
+395			5558C	74	4	F	Stim in the MS and Gi in the dHPC	9/30/21	"AAV-CAMKII-ChR2-eYFP in MS, AAV-CaMKII-GiDREADD-mcherry in dHPC; "	Did RTPT and Self-Stim	-	Y			
+396			5558C	74	5	F	Stim in the MS and Gi in the dHPC	9/30/21	"AAV-CAMKII-ChR2-eYFP in MS, AAV-CaMKII-GiDREADD-mcherry in dHPC; "	Did RTPT and Self-Stim	-	Y			
+397			5558C	74	6	F	Stim in the MS and Gi in the dHPC	9/30/21	"AAV-CAMKII-ChR2-eYFP in MS, AAV-CaMKII-GiDREADD-mcherry in dHPC; "	Did RTPT and Self-Stim	-	Y			
+398			5558C	74	7	F	Stim in the MS and Gi in the dHPC	9/30/21	"AAV-CAMKII-ChR2-eYFP in MS, AAV-CaMKII-GiDREADD-mcherry in dHPC; "	Did RTPT and Self-Stim	-	Y			
+399			5558C	74	8	F	Stim in the MS and Gi in the dHPC	9/30/21	"AAV-CAMKII-ChR2-eYFP in MS, AAV-CaMKII-GiDREADD-mcherry in dHPC; "	Did RTPT and Self-Stim	-	Y			
+400			5558C	74	9	F	Stim in the MS and Gi in the dHPC	9/30/21	"AAV-CAMKII-ChR2-eYFP in MS, AAV-CaMKII-GiDREADD-mcherry in dHPC; "	Did RTPT and Self-Stim	-	Y			
+401			5558C	74	10	F	Stim in the MS and Gi in the dHPC	9/30/21	"AAV-CAMKII-ChR2-eYFP in MS, AAV-CaMKII-GiDREADD-mcherry in dHPC; "	Did RTPT and Self-Stim	-	Y			
+402			5558C	74	11	F	Stim in the MS and Gi in the dHPC	9/30/21	"AAV-CAMKII-ChR2-eYFP in MS, AAV-CaMKII-GiDREADD-mcherry in dHPC; "	Did RTPT and Self-Stim	-	Y			
+403			5558C	74	12	F	Stim in the MS and Gi in the dHPC	9/30/21	"AAV-CAMKII-ChR2-eYFP in MS, AAV-CaMKII-GiDREADD-mcherry in dHPC; "	Did RTPT and Self-Stim	-	Y			
+															
+404			5558C	75	1	M	Stim in the MS and Gi in the Dhpc	9/30/21	"AAV-CAMKII-ChR2-eYFP in MS, AAV-CaMKII-GiDREADD-mcherry in dHPC;"		-	Y			
+405			5558C	75	2	M	Stim in the MS and Gi in the Dhpc	9/30/21	"AAV-CAMKII-ChR2-eYFP in MS, AAV-CaMKII-GiDREADD-mcherry in dHPC;"		-	Y			
+406			5558C	75	3	M	Stim in the MS and Gi in the Dhpc	9/30/21	"AAV-CAMKII-ChR2-eYFP in MS, AAV-CaMKII-GiDREADD-mcherry in dHPC;"		-	Y			
+407			5558C	75	4	M	Stim in the MS and Gi in the Dhpc	9/30/21	"AAV-CAMKII-ChR2-eYFP in MS, AAV-CaMKII-GiDREADD-mcherry in dHPC;"		-	Y			
+408			5558C	75	5	F	Stim in the MS and Gi in the Dhpc	9/30/21	"AAV-CAMKII-ChR2-eYFP in MS, AAV-CaMKII-GiDREADD-mcherry in dHPC;"		-	Y			
+409			5558C	75	6	M	Stim in the MS and Gi in the Dhpc	9/30/21	"AAV-CAMKII-ChR2-eYFP in MS, AAV-CaMKII-GiDREADD-mcherry in dHPC;"		-	Y			
+410			5558C	75	7	M	Stim in the MS and Gi in the Dhpc	9/30/21	"AAV-CAMKII-ChR2-eYFP in MS, AAV-CaMKII-GiDREADD-mcherry in dHPC;"		-	Y			
+411			5558C	75	8	M	Stim in the MS and Gi in the Dhpc	9/30/21	"AAV-CAMKII-ChR2-eYFP in MS, AAV-CaMKII-GiDREADD-mcherry in dHPC;"		-	Y			
+412			5558C	75	9	M	Stim in the MS and Gi in the Dhpc	9/30/21	"AAV-CAMKII-ChR2-eYFP in MS, AAV-CaMKII-GiDREADD-mcherry in dHPC;"		-	Y			
+413			5558C	75	10	M	Stim in the MS and Gi in the Dhpc	9/30/21	"AAV-CAMKII-ChR2-eYFP in MS, AAV-CaMKII-GiDREADD-mcherry in dHPC;"		-	Y			
+															
+414	WTL502		5558C	76	1	F	Stimulation of the direct projection from dHPC to NAc	1/24/22	"AAV-CAMKII-ChR2-eYFP in dHPC bilateral, Fiber in the NAc;  post processing handled by Niko and Yinka"	Perfused for tracing	-	Y	Y	Y	
+415	WTL502		5558C	76	2	F	Stimulation of the direct projection from dHPC to NAc	1/24/22	"AAV-CAMKII-ChR2-eYFP in dHPC bilateral, Fiber in the NAc;  post processing handled by Niko and Yinka"	Perfused for tracing	-	Y	Y	Y	
+416	WTL502		5558C	76	3	F	Stimulation of the direct projection from dHPC to NAc	1/24/22	"AAV-CAMKII-ChR2-eYFP in dHPC bilateral, Fiber in the NAc;  post processing handled by Niko and Yinka"		-	Y	Y	Y	
+417	WTL502		5558C	76	4	F	Stimulation of the direct projection from dHPC to NAc	1/24/22	"AAV-CAMKII-ChR2-eYFP in dHPC bilateral, Fiber in the NAc;  post processing handled by Niko and Yinka"		-	Y	Y	Y	
+418	WTL502		5558C	76	5	F	Stimulation of the direct projection from dHPC to NAc	1/24/22	"AAV-CAMKII-ChR2-eYFP in dHPC bilateral, Fiber in the NAc;  post processing handled by Niko and Yinka"		-	Y	Y	Y	
+419	WTL502		5558C	76	6	M	Stimulation of the direct projection from dHPC to NAc	1/24/22	"AAV-CAMKII-ChR2-eYFP in dHPC bilateral, Fiber in the NAc;  post processing handled by Niko and Yinka"	FDIC	-	-	-	-	-
+420	WTL502		5558C	76	7	M	Stimulation of the direct projection from dHPC to NAc	1/24/22	"AAV-CAMKII-ChR2-eYFP in dHPC bilateral, Fiber in the NAc;  post processing handled by Niko and Yinka"		-	Y	Y	Y	
+421	WTL502		5558C	76	8	M	Stimulation of the direct projection from dHPC to NAc	1/24/22	"AAV-CAMKII-ChR2-eYFP in dHPC bilateral, Fiber in the NAc;  post processing handled by Niko and Yinka"		-	Y	Y	Y	
+422	WTL502		5558C	76	9	M	Stimulation of the direct projection from dHPC to NAc	1/24/22	"AAV-CAMKII-ChR2-eYFP in dHPC bilateral, Fiber in the NAc;  post processing handled by Niko and Yinka"		-	Y	Y	Y	
+423	WTL502		5558C	76	10	M	Stimulation of the direct projection from dHPC to NAc	1/24/22	"AAV-CAMKII-ChR2-eYFP in dHPC bilateral, Fiber in the NAc;  post processing handled by Niko and Yinka"		-	Y	Y	Y	
+424	WTL502		5558C	76	11	M	Stimulation of the direct projection from dHPC to NAc	1/24/22	"AAV-CAMKII-ChR2-eYFP in dHPC bilateral, Fiber in the NAc;  post processing handled by Niko and Yinka"		-	Y	Y	Y	
+425	WTL502		5558C	76	12	M	Stimulation of the direct projection from dHPC to NAc	1/24/22	"AAV-CAMKII-ChR2-eYFP in dHPC bilateral, Fiber in the NAc;  post processing handled by Niko and Yinka"		-	Y	Y	Y	
+															
+414	WTL503		5558C	77	1	F	Stimulation of the direct projection from dHPC to NAc	1/28/22	"AAV-CAMKII-ChR2-eYFP in dHPC bilateral, Fiber in the NAc; post processing handled by Niko and Yinka "	FDIC	-	-	-	-	-
+415	WTL503		5558C	77	2	F	Stimulation of the direct projection from dHPC to NAc	1/28/22	"AAV-CAMKII-ChR2-eYFP in dHPC bilateral, Fiber in the NAc; post processing handled by Niko and Yinka "		-	Y	Y	Y	
+416	WTL503		5558C	77	3	F	Stimulation of the direct projection from dHPC to NAc	1/28/22	"AAV-CAMKII-ChR2-eYFP in dHPC bilateral, Fiber in the NAc; post processing handled by Niko and Yinka "		-	Y	Y	Y	
+417	WTL503		5558C	77	4	F	Stimulation of the direct projection from dHPC to NAc	1/28/22	"AAV-CAMKII-ChR2-eYFP in dHPC bilateral, Fiber in the NAc; post processing handled by Niko and Yinka "		-	Y	Y	Y	
+418	WTL503		5558C	77	5	F	Stimulation of the direct projection from dHPC to NAc	1/28/22	"AAV-CAMKII-ChR2-eYFP in dHPC bilateral, Fiber in the NAc; post processing handled by Niko and Yinka "		-	Y	Y	Y	
+419	WTL503		5558C	77	6	F	Stimulation of the direct projection from dHPC to NAc	1/28/22	"AAV-CAMKII-ChR2-eYFP in dHPC bilateral, Fiber in the NAc; post processing handled by Niko and Yinka "		-	Y	Y	Y	
+420	WTL503		5558C	77	7	F	Stimulation of the direct projection from dHPC to NAc	1/28/22	"AAV-CAMKII-ChR2-eYFP in dHPC bilateral, Fiber in the NAc; post processing handled by Niko and Yinka "		-	Y	Y	Y	
+421	WTL503		5558C	77	8	F	Stimulation of the direct projection from dHPC to NAc	1/28/22	"AAV-CAMKII-ChR2-eYFP in dHPC bilateral, Fiber in the NAc; post processing handled by Niko and Yinka "		-	Y	Y	Y	
+422	WTL503		5558C	77	9	M	Stimulation of the direct projection from dHPC to NAc	1/28/22	"AAV-CAMKII-ChR2-eYFP in dHPC bilateral, Fiber in the NAc; post processing handled by Niko and Yinka "		-	Y	Y	Y	
+425	WTL503		5558C	77	10	M	Stimulation of the direct projection from dHPC to NAc	1/28/22	"AAV-CAMKII-ChR2-eYFP in dHPC bilateral, Fiber in the NAc; post processing handled by Niko and Yinka "		-	Y	Y	Y	
+															
+426	WTL511		5558C	78	1	F	Tracing from the NAc to the dHPC	2/28/22	retroAAV-CAMKII-ChR2-mCherry		-	6/3/22			
+427	WTL511		5558C	78	2	F	Tracing from the NAc to the dHPC	2/28/22	retroAAV-CAMKII-ChR2-mCherry		-	6/3/22			
+428	WTL511		5558C	78	3	F	Tracing from the NAc to the dHPC	2/28/22	retroAAV-CAMKII-ChR2-mCherry		-	6/3/22			
+429	WTL511		5558C	78	4	F	Tracing from the NAc to the dHPC	2/28/22	retroAAV-CAMKII-ChR2-mCherry		-	6/3/22			
+430	WTL511		5558C	78	5	F	Tracing from the NAc to the dHPC	2/28/22	retroAAV-CAMKII-ChR2-mCherry		-	6/3/22			
+															
+431			5558C		Y1	M	Lei-Dab7 daily infusion PRACTICE CPP	2/4/22	Cannula Implants	Headcap came out during infusion	-	-	-	-	-
+432			5558C		Y2	M	Lei-Dab7 daily infusion PRACTICE CPP	2/4/22	Cannula Implants	Headcap came out during infusion	-	-	-	-	-
+433			5558C		Y3	M	Lei-Dab7 daily infusion PRACTICE CPP	2/4/22	Cannula Implants	Headcap came out during infusion	-	-	-	-	-
+434			5558C		Y4	M	Lei-Dab7 daily infusion PRACTICE CPP	2/4/22	Cannula Implants	Headcap came out during infusion	-	-	-	-	-
+435			5558C		Y5	M	Lei-Dab7 daily infusion PRACTICE CPP	2/4/22	Cannula Implants	Headcap came out during infusion	-	-	-	-	-
+436			5558C		Y6	M	Lei-Dab7 daily infusion PRACTICE CPP	2/4/22	Cannula Implants		-	Y	Y	Y	Y
+437			5558C		Y7	M	Lei-Dab7 daily infusion PRACTICE CPP	2/4/22	Cannula Implants		-	Y	Y	Y	Y
+438			5558C		Y8	M	Lei-Dab7 daily infusion PRACTICE CPP	2/4/22	Cannula Implants	Headcap came out during infusion	-	-	-	-	-
+439			5558C		Y9	M	Lei-Dab7 daily infusion PRACTICE CPP	2/4/22	Cannula Implants	FDIC	-	-	-	-	-
+440			5558C		Y10	M	Lei-Dab7 daily infusion PRACTICE CPP	2/4/22	Cannula Implants	Headcap came out during infusion	-	-	-	-	-
+441			5558C		Y11	M	Lei-Dab7 daily infusion PRACTICE CPP	2/4/22	Cannula Implants	FDIC	-	-	-	-	-
+442			5558C		Y12	M	Lei-Dab7 daily infusion PRACTICE CPP	2/4/22	Cannula Implants		-	Y	Y	Y	Y
+															
+431			5558C		Y13	M	Lei-Dab7 daily infusion PRACTICE CPP	3/22/22	Cannula Implants		-	Y	Y	Y	Y
+432			5558C		Y14	M	Lei-Dab7 daily infusion PRACTICE CPP	3/22/22	Cannula Implants		-	Y	Y	Y	Y
+433			5558C		Y15	M	Lei-Dab7 daily infusion PRACTICE CPP	3/22/22	Cannula Implants		-	Y	Y	Y	Y
+434			5558C		Y16	M	Lei-Dab7 daily infusion PRACTICE CPP	3/22/22	Cannula Implants		-	Y	Y	Y	Y
+435			5558C		Y17	M	Lei-Dab7 daily infusion PRACTICE CPP	3/22/22	Cannula Implants		-	Y	Y	Y	Y
+436			5558C		Y18	M	Lei-Dab7 daily infusion PRACTICE CPP	3/22/22	Cannula Implants		-	Y	Y	Y	Y
+437			5558C		Y19	M	Lei-Dab7 daily infusion PRACTICE CPP	3/22/22	Cannula Implants		-	Y	Y	Y	Y
+438			5558C		Y20	M	Lei-Dab7 daily infusion PRACTICE CPP	3/22/22	Cannula Implants		-	Y	Y	Y	Y
+439			5558C		Y21	M	Lei-Dab7 daily infusion PRACTICE CPP	3/22/22	Cannula Implants		-	Y	Y	Y	Y
+440			5558C		Y22	M	Lei-Dab7 daily infusion PRACTICE CPP	3/22/22	Cannula Implants		-	Y	Y	Y	Y
+441			5558C		Y23	M	Lei-Dab7 daily infusion PRACTICE CPP	3/22/22	Cannula Implants		-	Y	Y	Y	Y
+442			5558C		Y24	M	Lei-Dab7 daily infusion PRACTICE CPP	3/22/22	Cannula Implants		-	Y	Y	Y	Y
+443			5558C		Y25	M	Lei-Dab7 daily infusion PRACTICE CPP	3/22/22	Cannula Implants		-	Y	Y	Y	Y
+444			5558C		Y26	M	Lei-Dab7 daily infusion PRACTICE CPP	3/22/22	Cannula Implants		-	Y	Y	Y	Y
+445			5558C		Y27	M	Lei-Dab7 daily infusion PRACTICE CPP	3/22/22	Cannula Implants		-	Y	Y	Y	Y
+446			5558C		Y28	M	Lei-Dab7 daily infusion PRACTICE CPP	3/22/22	Cannula Implants		-	Y	Y	Y	Y
+															
+447	WTL532		5558C		Y28	M	Lei-Dab7 daily infusion PRACTICE CPP	2/4/22	Cannula Implants	FDIC	-	-	-	-	-
+448	WTL532		5558C		Y29	M	Lei-Dab7 daily infusion PRACTICE CPP	2/4/22	Cannula Implants	FDIC	-	-	-	-	-
+449	WTL532		5558C		Y30	M	Lei-Dab7 daily infusion PRACTICE CPP	2/4/22	Cannula Implants	FDIC	-	-	-	-	-
+450	WTL532		5558C		Y31	M	Lei-Dab7 daily infusion PRACTICE CPP	2/4/22	Cannula Implants		-	Y	Y		
+451	WTL532		5558C		Y32	M	Lei-Dab7 daily infusion PRACTICE CPP	2/4/22	Cannula Implants		-	Y	Y		
+452	WTL532		5558C		Y33	M	Lei-Dab7 daily infusion PRACTICE CPP	2/4/22	Cannula Implants		-	Y	Y		
+453	WTL532		5558C		Y34	M	Lei-Dab7 daily infusion PRACTICE CPP	2/4/22	Cannula Implants	FDIC	-	-	-	-	-
+454	WTL532		5558C		Y35	M	Lei-Dab7 daily infusion PRACTICE CPP	2/4/22	Cannula Implants	FDIC	-	-	-	-	-
+455	WTL532		5558C		Y36	M	Lei-Dab7 daily infusion PRACTICE CPP	2/4/22	Cannula Implants	FDIC	-	-	-	-	-
+456	WTL533		5558C		Y37	M	Lei-Dab7 daily infusion PRACTICE CPP	2/4/22	Cannula Implants	FDIC	-	-	-	-	-
+457	WTL533		5558C		Y38	M	Lei-Dab7 daily infusion PRACTICE CPP	2/4/22	Cannula Implants		-	Y	Y		
+458	WTL533		5558C		Y39	M	Lei-Dab7 daily infusion PRACTICE CPP	2/4/22	Cannula Implants		-	Y	Y		
+459	WTL534		5558C		Y40	M	Lei-Dab7 daily infusion PRACTICE CPP	2/4/22	Cannula Implants	FDIC	-	-	-	-	-
+460	WTL534		5558C		Y41	M	Lei-Dab7 daily infusion PRACTICE CPP	2/4/22	Cannula Implants	FDIC	-	-	-	-	-
+461	WTL534		5558C		Y42	M	Lei-Dab7 daily infusion PRACTICE CPP	2/4/22	Cannula Implants		-	Y	Y		
+462	WTL534		5558C		Y43	M	Lei-Dab7 daily infusion PRACTICE CPP	2/4/22	Cannula Implants		-	Y	Y		
+463	WTL534		5558C		Y44	M	Lei-Dab7 daily infusion PRACTICE CPP	2/4/22	Cannula Implants		-	Y	Y		
+464	WTL534		5558C		Y29R	M	Lei-Dab7 daily infusion PRACTICE CPP	2/4/22	Cannula Implants	FDIC	-	-	-	-	-
+465	WTL529		5558C		Y30R	M	Lei-Dab7 daily infusion PRACTICE CPP	2/4/22	Cannula Implants		-	Y	Y		
+466	WTL529		5558C		Y31R	M	Lei-Dab7 daily infusion PRACTICE CPP	2/4/22	Cannula Implants	FDIC	-	-	-	-	-
+467	WTL529		5558C		Y35R	M	Lei-Dab7 daily infusion PRACTICE CPP	2/4/22	Cannula Implants	FDIC	-	-	-	-	-
+468	WTL531		5558C		Y36R	M	Lei-Dab7 daily infusion PRACTICE CPP	2/4/22	Cannula Implants		-	Y	Y		
+469	WTL531		5558C		Y37R	M	Lei-Dab7 daily infusion PRACTICE CPP	2/4/22	Cannula Implants	FDIC	-	-	-	-	-
+470	WTL535		5558C		Y40R	M	Lei-Dab7 daily infusion PRACTICE CPP	2/4/22	Cannula Implants		-	Y	Y		
+471	WTL535		5558C		Y41R	M	Lei-Dab7 daily infusion PRACTICE CPP	2/4/22	Cannula Implants	FDIC	-	-	-	-	-
+472	WTL535		5558C		Y34R	M	Lei-Dab7 daily infusion PRACTICE CPP	2/4/22	Cannula Implants		-	Y	Y		
+473	WLT536		5558C		Y35R2	M	Lei-Dab7 daily infusion PRACTICE CPP	2/4/22	Cannula Implants		-	Y	Y		
+474	WTL530		5558C		Y37R2	M	Lei-Dab7 daily infusion PRACTICE CPP	2/4/22	Cannula Implants		-	Y	Y		
+475	WTL530		5558C		Y29R3	M	Lei-Dab7 daily infusion PRACTICE CPP	2/4/22	Cannula Implants		-	Y	Y		
+476	WLTL524		5558C		Y31R3	M	Lei-Dab7 daily infusion PRACTICE CPP	2/4/22	Cannula Implants		-	Y	Y		
+477	WLTL524		5558C		Y41R3	M	Lei-Dab7 daily infusion PRACTICE CPP	2/4/22	Cannula Implants		-	Y	Y		
+478	WLTL524		5558C		Y45R3	M	Lei-Dab7 daily infusion PRACTICE CPP	2/4/22	Cannula Implants		-	Y	Y		
+479	WLTL524		5558C		Y46R3	M	Lei-Dab7 daily infusion PRACTICE CPP	2/4/22	Cannula Implants		-	Y	Y		
+															
+480			5558C		Y47	M	Lei-Dab7 daily infusion PRACTICE CPP	5/12/22	Cannula Implants		-	6/3/22			
+481			5558C		Y48	M	Lei-Dab7 daily infusion PRACTICE CPP	5/12/22	Cannula Implants		-	6/3/22			
+482			5558C		Y49	M	Lei-Dab7 daily infusion PRACTICE CPP	5/12/22	Cannula Implants		-	6/3/22			
+483			5558C			M	Lei-Dab7 daily infusion PRACTICE CPP	5/12/22	Cannula Implants	FDIC	-	-	-	-	-
+484			5558C		Y50	M	Lei-Dab7 daily infusion PRACTICE CPP	5/12/22	Cannula Implants		-	6/3/22			
+485			5558C			M	Lei-Dab7 daily infusion PRACTICE CPP	5/12/22	Cannula Implants	FDIC	-	-	-	-	-
+486			5558C			M	Lei-Dab7 daily infusion PRACTICE CPP	5/12/22	Cannula Implants	FDIC	-	-	-	-	-
+487			5558C		Y51	M	Lei-Dab7 daily infusion PRACTICE CPP	5/12/22	Cannula Implants		-	6/3/22			
+488			5558C			M	Lei-Dab7 daily infusion PRACTICE CPP	5/12/22	Cannula Implants	FDIC	-	-	-	-	-
+489			5558C		Y52	M	Lei-Dab7 daily infusion PRACTICE CPP	5/12/22	Cannula Implants		-	6/3/22			
+490			5558C			M	Lei-Dab7 daily infusion PRACTICE CPP	5/12/22	Cannula Implants	FDIC	-	-	-	-	-
+491			5558C			M	Lei-Dab7 daily infusion PRACTICE CPP	5/12/22	Cannula Implants	FDIC	-	-	-	-	-
+492			5558C			M	Lei-Dab7 daily infusion PRACTICE CPP	5/12/22	Cannula Implants	FDIC	-	-	-	-	-
+493			5558C		Y55	M	Lei-Dab7 daily infusion PRACTICE CPP	5/12/22	Cannula Implants		-	6/3/22			
+494			5558C			M	Lei-Dab7 daily infusion PRACTICE CPP	5/12/22	Cannula Implants	FDIC	-	-	-	-	-
+495			5558C		Y53	M	Lei-Dab7 daily infusion PRACTICE CPP	5/12/22	Cannula Implants		-	6/3/22			
+496			5558C		Y56	M	Lei-Dab7 daily infusion PRACTICE CPP	5/12/22	Cannula Implants			6/3/22			
+497			5558C			M	Lei-Dab7 daily infusion PRACTICE CPP	5/12/22	Cannula Implants	FDIC	-	-	-	-	-
+498			5558C		Y59	M	Lei-Dab7 daily infusion PRACTICE CPP	5/12/22	Cannula Implants			6/3/22			
+499			5558C		Y61	M	Lei-Dab7 daily infusion PRACTICE CPP	5/12/22	Cannula Implants			6/3/22			
+500			5558C			M	Lei-Dab7 daily infusion PRACTICE CPP	5/12/22	Cannula Implants	FDIC	-	-	-	-	-
+501			5558C		Y62	M	Lei-Dab7 daily infusion PRACTICE CPP	5/12/22	Cannula Implants			6/3/22			
+502			5558C		Y60	M	Lei-Dab7 daily infusion PRACTICE CPP	5/12/22	Cannula Implants			6/3/22			
+503			5558C		Y58	M	Lei-Dab7 daily infusion PRACTICE CPP	5/12/22	Cannula Implants		-	6/3/22			

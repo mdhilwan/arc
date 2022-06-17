@@ -17,6 +17,7 @@ export class KanbanBoardComponent implements OnInit {
   sectionedAnimals: AnimalModel[] = [];
   mountedAnimals: AnimalModel[] = [];
   cryoProtectAnimals: AnimalModel[] = [];
+  fdicAnimals: AnimalModel[] = [];
 
   constructor(private animalDataService: AnimalDataService) { }
 
@@ -47,15 +48,24 @@ export class KanbanBoardComponent implements OnInit {
     if (data && data.length) {
       for (let i = 0; i < data.length; i++) {
         let animal = new AnimalModel(data[i]);
-        console.log(animal);
         this.funnelAnimalModelsIntoSwimLanes(animal);
       }
     }
   }
 
   private funnelAnimalModelsIntoSwimLanes(animal: AnimalModel) {
-    if (animal.doneSacrificed) {
+    if (animal.fdic) {
+      this.fdicAnimals.push(animal);
+    } else if (animal.doneCryoprotect) {
+      this.cryoProtectAnimals.push(animal);
+    } else if (animal.doneMounted) {
+      this.mountedAnimals.push(animal);
+    } else if (animal.doneSectioned) {
+      this.sectionedAnimals.push(animal);
+    } else if (animal.doneSacrificed) {
       this.sacrificedAnimals.push(animal);
+    } else {
+      this.inProgressAnimals.push(animal);
     }
   }
 }

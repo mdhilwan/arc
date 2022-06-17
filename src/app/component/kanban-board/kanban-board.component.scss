@@ -1,15 +1,19 @@
 $board-padding: 0.5rem;
 $board-margin: 0.5rem;
-$total-boards: 6;
+$total-boards: 7;
+$board-bg: #ebeff5;
 $total-boards-less-one: $total-boards - 1;
 
 .content {
   padding: 1rem 1rem;
   height: calc(100% - 7rem);
+  display: flex;
 }
 
 .all-boards {
-  height: 100%;
+  min-height: 100%;
+  display: flex;
+  flex-grow: 1;
 }
 
 .single-board {
@@ -19,9 +23,19 @@ $total-boards-less-one: $total-boards - 1;
   padding: $board-padding;
   display: inline-block;
   vertical-align: top;
-  background-color: #ebeff5;
+  background-color: $board-bg;
   margin-right: $board-margin;
-  height: 100%;
+  min-height: 100%;
+
+  h3 {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    padding: 1rem 0.5rem;
+    margin: -0.5rem;
+    background-color: #ebeff5;
+    box-shadow: 0px 3px 4px rgb(0 0 0 / 20%);
+  }
 
   &:not(:last-child):not(:first-child) {
     border-left: 0;
@@ -34,10 +48,18 @@ $total-boards-less-one: $total-boards - 1;
 
   .animal-list {
     min-height: 60px;
-    height: 100%;
-    overflow: hidden;
+    height: calc(100% - 2.5rem);
     display: block;
-    padding: 0 3px 4px 2px;
+    padding: 1.25rem 3px 4px 2px;
+  }
+
+  .board-title {
+    padding-left: 1rem;
+    margin-left: 0.5rem;
+  }
+
+  .mat-badge-content {
+    top: -4px;
   }
 }
 

@@ -1,5 +1,6 @@
 export interface AnimalInterface {
   'Animal No': string;
+  'Animal No in Cage': string;
   'Cage No': string;
   'Comments': string;
   'Cryoprotect': string;
@@ -11,6 +12,7 @@ export interface AnimalInterface {
   'Parents': string;
   'Purpose': string;
   'Sac date': string;
+  'FDIC': string;
   'Section date': string;
   'Sex': string;
   'Surgery date': string;

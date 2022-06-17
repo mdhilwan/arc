@@ -1,18 +1,28 @@
-<!--<div class="d-flex d-flex-grow">-->
-<!--  <mat-icon>library_books</mat-icon>-->
-<!--  <span>No: {{animal?.animalNumber}}</span>-->
-<!--</div>-->
-<!--<div>{{animal?.getComments()}}</div>-->
 <mat-card class="example-card">
-  <mat-card-header>
-    <div mat-card-avatar class="example-header-image">
-
-    </div>
-    <mat-card-title>No. {{animal?.animalNumber}}</mat-card-title>
-<!--    <mat-card-subtitle>{{}}</mat-card-subtitle>-->
-  </mat-card-header>
   <mat-card-content>
-    <p>Comments: {{animal?.comments}}</p>
-    <p>Sac Date: {{animal?.sacDate}}</p>
+    <div class="header">
+      <h3>
+        No. {{animal?.animalNumberInCage}} / Cage. {{animal?.cageNo}} / <small>{{animal?.parents}}</small>
+      </h3>
+      <span class="control">
+        <span *ngIf="animal?.sex">
+          <mat-icon inline *ngIf="animal?.sex === 'M'">male</mat-icon>
+          <mat-icon inline *ngIf="animal?.sex === 'F'">female</mat-icon>
+        </span>
+      </span>
+    </div>
+    <p *ngIf="animal?.comments">
+      <mat-icon inline>chat</mat-icon>
+      {{animal?.comments}}
+    </p>
+    <p *ngIf="animal?.sacDate">
+      <mat-icon inline>carpenter</mat-icon>
+      {{animal?.sacDate}}
+    </p>
   </mat-card-content>
+  <mat-card-actions>
+    <button mat-button>
+      <mat-icon>more_horiz</mat-icon>
+    </button>
+  </mat-card-actions>
 </mat-card>

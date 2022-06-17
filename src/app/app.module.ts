@@ -13,7 +13,7 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { DashboardComponent } from './page/dashboard/dashboard.component';
 import { KanbanBoardComponent } from './component/kanban-board/kanban-board.component';
 import { MatSidenavModule } from '@angular/material/sidenav';
-import { HeaderComponent } from './component/header/header.component';
+import { FooterComponent } from './component/footer/footer.component';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatListModule } from '@angular/material/list';
 import { DragDropModule } from '@angular/cdk/drag-drop';
@@ -22,6 +22,9 @@ import { MatButtonToggleModule } from '@angular/material/button-toggle';
 import { MatIconModule } from '@angular/material/icon';
 import { MatMenuModule } from '@angular/material/menu';
 import { HttpClientModule } from '@angular/common/http';
+import { MatBadgeModule } from '@angular/material/badge';
+import { MatProgressBarModule } from '@angular/material/progress-bar';
+import { LayoutModule } from '@angular/cdk/layout';
 
 @NgModule({
   declarations: [
@@ -30,7 +33,7 @@ import { HttpClientModule } from '@angular/common/http';
     LoginFormComponent,
     DashboardComponent,
     KanbanBoardComponent,
-    HeaderComponent,
+    FooterComponent,
     AnimalCardComponent
   ],
   imports: [
@@ -48,7 +51,10 @@ import { HttpClientModule } from '@angular/common/http';
     MatButtonToggleModule,
     HttpClientModule,
     MatIconModule,
-    MatMenuModule
+    MatMenuModule,
+    MatBadgeModule,
+    MatProgressBarModule,
+    LayoutModule
   ],
   providers: [],
   bootstrap: [AppComponent]

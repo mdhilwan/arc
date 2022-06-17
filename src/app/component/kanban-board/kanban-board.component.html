@@ -1,7 +1,7 @@
 <div class="content">
   <div cdkDropListGroup class="all-boards">
     <div class="single-board">
-      <h3>New</h3>
+      <h3><span class="board-title" matBadge="{{newAnimals.length}}" matBadgeColor="warn" matBadgePosition="before">New</span></h3>
 
       <div
         cdkDropList
@@ -13,7 +13,7 @@
     </div>
 
     <div class="single-board">
-      <h3>In-Progress</h3>
+      <h3><span class="board-title" matBadge="{{inProgressAnimals.length}}" matBadgeColor="warn" matBadgePosition="before">In-Progress</span></h3>
 
       <div
         cdkDropList
@@ -25,7 +25,7 @@
     </div>
 
     <div class="single-board">
-      <h3>SAC</h3>
+      <h3><span class="board-title" matBadge="{{sacrificedAnimals.length}}" matBadgeColor="warn" matBadgePosition="before">SAC</span></h3>
 
       <div
         cdkDropList
@@ -37,7 +37,7 @@
     </div>
 
     <div class="single-board">
-      <h3>Sectioned</h3>
+      <h3><span class="board-title" matBadge="{{sectionedAnimals.length}}" matBadgeColor="warn" matBadgePosition="before">Sectioned</span></h3>
 
       <div
         cdkDropList
@@ -49,7 +49,7 @@
     </div>
 
     <div class="single-board">
-      <h3>Mounted</h3>
+      <h3><span class="board-title" matBadge="{{mountedAnimals.length}}" matBadgeColor="warn" matBadgePosition="before">Mounted</span></h3>
 
       <div
         cdkDropList
@@ -61,7 +61,7 @@
     </div>
 
     <div class="single-board">
-      <h3>Cryoprotect</h3>
+      <h3><span class="board-title" matBadge="{{cryoProtectAnimals.length}}" matBadgeColor="warn" matBadgePosition="before">Cryoprotect</span></h3>
 
       <div
         cdkDropList
@@ -69,6 +69,18 @@
         class="animal-list"
         (cdkDropListDropped)="drop($event)">
         <app-animal-card *ngFor="let animal of cryoProtectAnimals" cdkDrag [animal]="animal"></app-animal-card>
+      </div>
+    </div>
+
+    <div class="single-board">
+      <h3><span class="board-title" matBadge="{{fdicAnimals.length}}" matBadgeColor="primary" matBadgePosition="before">FDIC</span></h3>
+
+      <div
+        cdkDropList
+        [cdkDropListData]="fdicAnimals"
+        class="animal-list"
+        (cdkDropListDropped)="drop($event)">
+        <app-animal-card *ngFor="let animal of fdicAnimals" cdkDrag [animal]="animal"></app-animal-card>
       </div>
     </div>
   </div>
