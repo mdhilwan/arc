@@ -2,7 +2,8 @@
   <mat-card-content>
     <div class="header">
       <h3>
-        No. {{animal?.animalNumberInCage}} / Cage. {{animal?.cageNo}} / <small>{{animal?.parents}}</small>
+        <span *ngIf="animal?.cageNo">{{animal?.cageNo}} - </span>
+        <span>{{animal?.animalNumberInCage}}</span>
       </h3>
       <span class="control">
         <span *ngIf="animal?.sex">
@@ -11,14 +12,6 @@
         </span>
       </span>
     </div>
-    <p *ngIf="animal?.comments">
-      <mat-icon inline>chat</mat-icon>
-      {{animal?.comments}}
-    </p>
-    <p *ngIf="animal?.sacDate">
-      <mat-icon inline>carpenter</mat-icon>
-      {{animal?.sacDate}}
-    </p>
   </mat-card-content>
   <mat-card-actions>
     <button mat-button>

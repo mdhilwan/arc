@@ -9,10 +9,10 @@
 
   <span>ARC - Animal Research Cycle</span>
   <span class="menu-spacer"></span>
-  <button mat-icon-button class="example-icon">
-    <mat-icon>note_add</mat-icon>
+  <button mat-icon-button *ngIf="draggable.value" (click)="toggleDraggable()">
+    <mat-icon>flip_to_front</mat-icon>
   </button>
-  <button mat-icon-button class="example-icon">
+  <button mat-icon-button class="mat-button-disabled" *ngIf="!draggable.value" (click)="toggleDraggable()">
     <mat-icon>flip_to_front</mat-icon>
   </button>
 </mat-toolbar>

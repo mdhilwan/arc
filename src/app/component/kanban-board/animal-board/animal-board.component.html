@@ -1,0 +1,27 @@
+  <h3 class="board-title-wrapper">
+    <span *ngIf="matBadgeColorInput === 'warn'" class="board-title"
+          matBadge="{{animalList.length}}"
+          matBadgeColor="warn"
+          matBadgePosition="before">{{listTitle}}</span>
+    <span *ngIf="matBadgeColorInput === 'primary'" class="board-title"
+          matBadge="{{animalList.length}}"
+          matBadgeColor="primary"
+          matBadgePosition="before">{{listTitle}}</span>
+    <span *ngIf="matBadgeColorInput === 'accent'" class="board-title"
+          matBadge="{{animalList.length}}"
+          matBadgeColor="accent"
+          matBadgePosition="before">{{listTitle}}</span>
+
+    <ng-content></ng-content>
+  </h3>
+
+  <div
+    cdkDropList
+    [cdkDropListData]="animalList"
+    class="animal-list"
+    (cdkDropListDropped)="drop($event)">
+    <app-animal-card *ngFor="let animal of animalList"
+                     [animal]="animal"
+                     [cdkDragDisabled]="dragDisabled"
+                     cdkDrag></app-animal-card>
+  </div>

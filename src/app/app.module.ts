@@ -25,6 +25,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { MatBadgeModule } from '@angular/material/badge';
 import { MatProgressBarModule } from '@angular/material/progress-bar';
 import { LayoutModule } from '@angular/cdk/layout';
+import { AnimalBoardComponent } from './component/kanban-board/animal-board/animal-board.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { LayoutModule } from '@angular/cdk/layout';
     DashboardComponent,
     KanbanBoardComponent,
     FooterComponent,
-    AnimalCardComponent
+    AnimalCardComponent,
+    AnimalBoardComponent
   ],
   imports: [
     BrowserModule,

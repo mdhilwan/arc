@@ -9,8 +9,8 @@ Animal No	Parents	DOB	Location	Cage No	Animal No in Cage	Sex	Purpose	Surgery dat
 7	WT5-L57	4/18/19	4440A	11	2	M	Self-Stim	7/2/19	AAV5-CAMKII-ChR2-YFP	Have to repurpose due to change in project direction	CFA				
 															
 8	WT(L50)-L69	5/13/19	4440A	12	1	M	Self-Stim	7/19/19	AAV5-CAMKII-ChR2-YFP	Have to repurpose due to change in project direction. Headcap came out		8/15/19			
-9	WT(L50)-L69	5/13/19	4440A			M			Died during surgery						
-10	WT(L50)-L69	5/13/19	4440A			M			Died during surgery						
+9	WT(L50)-L69	5/13/19	4440A			M			Died during surgery	FDIC					
+10	WT(L50)-L69	5/13/19	4440A			M			Died during surgery	FDIC					
 															
 11	WTL68	5/10/19	4440A & 5558C	12	2	M	Self-Stim	7/29/19	AAV5-CAMKII-ChR2-YFP	Have to repurpose due to change in project direction. FDIC after 2 days after FR2		9/23/19			
 12	WTL68	5/10/19	4440A & 5558C	12	3	M	HG & VF	7/29/19	AAV5-CAMKII-ChR2-YFP	Have to repurpose due to change in project direction		10/25/19			
