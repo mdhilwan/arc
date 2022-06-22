@@ -1,8 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { CdkDragDrop, moveItemInArray, transferArrayItem } from '@angular/cdk/drag-drop';
-import { AnimalInterface } from '../../interface/animalInterface';
 import { AnimalDataService } from '../../service/animal-data.service';
-import { AnimalModel } from '../model/animal.model';
+import { AnimalModelDto } from '../model/animalModelDto';
+import { AnimalModel } from '../model/animalModel';
 
 @Component({
   selector: 'app-kanban-board',
@@ -22,12 +22,16 @@ export class KanbanBoardComponent implements OnInit {
   constructor(private animalDataService: AnimalDataService) { }
 
   async ngOnInit() {
-    this.animalDataService.getData$().subscribe((data: AnimalInterface[]) => {
-      this.generateAnimalModels(data);
+    this.animalDataService.getData$().subscribe((data: AnimalModel[]) => {
+      if (data) {
+        data.forEach(dat => {
+          this.funnelAnimalModelsIntoSwimLanes(dat);
+        })
+      }
     });
   }
 
-  drop(event: CdkDragDrop<AnimalModel[]>) {
+  drop(event: CdkDragDrop<AnimalModelDto[]>) {
     if (event.previousContainer === event.container) {
       moveItemInArray(
         event.container.data,
@@ -41,15 +45,6 @@ export class KanbanBoardComponent implements OnInit {
         event.previousIndex,
         event.currentIndex,
       );
-    }
-  }
-
-  private generateAnimalModels(data: AnimalInterface[]) {
-    if (data && data.length) {
-      for (let i = 0; i < data.length; i++) {
-        let animal = new AnimalModel(data[i]);
-        this.funnelAnimalModelsIntoSwimLanes(animal);
-      }
     }
   }
 

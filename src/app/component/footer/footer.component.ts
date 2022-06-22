@@ -1,7 +1,6 @@
-import {AfterViewInit, Component, ElementRef, ViewChild} from '@angular/core';
+import { Component } from '@angular/core';
 import { FormControl } from '@angular/forms';
 import { DragDropService } from '../../service/drag-drop.service';
-import { AnimalInterface } from '../../interface/animalInterface';
 import { AnimalDataService } from '../../service/animal-data.service';
 
 @Component({
@@ -17,9 +16,6 @@ export class FooterComponent {
     this.draggable.valueChanges.subscribe((val: boolean) => {
       this.dragDropService.setIsDraggable(!val)
     })
-    this.animalDataService.getData$().subscribe((data: AnimalInterface[]) => {
-      console.log(this.toggleDraggableClass());
-    });
   }
 
   toggleDraggable() {

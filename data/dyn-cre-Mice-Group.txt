@@ -1,0 +1,24 @@
+Animal No	Parents	DOB	Location	Cage No	Animal No	Sex	Purpose	Surgery date	Injection	Comments			Pain model	Sac date	Section date	Mounted	Cryoprotect	Is Archived
+1	Dyn51		5558C	Dyn1	1	M	"Stimulation in dHPC, FP in Nac"	3/9/21	AAV-CaMKII-eYFP in the dHPC and AAV-Syn-GCAMP7c in NAC					4/14/21	4/21/21	Y	Y	Y
+2	Dyn51		5558C	Dyn1	2	M	"Stimulation in dHPC, FP in Nac"	3/9/21	AAV-CaMKII-eYFP in the dHPC and AAV-Syn-GCAMP7c in NAC					4/14/21	5/4/21	Y	Y	Y
+3	Dyn51		5558C	Dyn1	3	M	"Stimulation in dHPC, FP in Nac"	3/9/21	AAV-CaMKII-eYFP in the dHPC and AAV-Syn-GCAMP7c in NAC					4/14/21	5/4/21	Y	Y	Y
+4	Dyn51		5558C	Dyn1	4	M	"Stimulation in dHPC, FP in Nac"	3/9/21	AAV-CaMKII-eYFP in the dHPC and AAV-Syn-GCAMP7c in NAC					4/14/21	4/21/21	Y	Y	Y
+5	Dyn50		5558C	Dyn1	5	M	"Stimulation in dHPC, FP in Nac"	3/9/21	AAV-CaMKII-eYFP in the dHPC and AAV-Syn-GCAMP7c in NAC					4/14/21	4/21/21	Y	Y	Y
+6	Dyn50		5558C	Dyn1	6	M	"Stimulation in dHPC, FP in Nac"	3/9/21	AAV-CaMKII-eYFP in the dHPC and AAV-Syn-GCAMP7c in NAC					4/14/21	4/22/21	Y	Y	Y
+7	Dyn51		5558C	Dyn1	7	M	"Stimulation in dHPC, FP in Nac"	3/9/21	AAV-CaMKII-eYFP in the dHPC and AAV-Syn-GCAMP7c in NAC	FDIC				-	-	-	-	Y
+8	Dyn51		5558C	Dyn1	8	M	"Stimulation in dHPC, FP in Nac"	3/9/21	AAV-CaMKII-eYFP in the dHPC and AAV-Syn-GCAMP7c in NAC					4/14/21	4/22/21			Y
+																		
+9			55558C	Dyn 2	1	M	"Stimulation in dHPC, FP in Nac"	4/23/21	AAV-CaMKII-eYFP in the dHPC and AAV-Syn-GCAMP7c in NAC	FDIC				-	-	-	-	Y
+10			55558C	Dyn 2	2	M	"Stimulation in dHPC, FP in Nac"	4/23/21	AAV-CaMKII-eYFP in the dHPC and AAV-Syn-GCAMP7c in NAC	FDIC				-	-	-	-	Y
+11			55558C	Dyn 2	3	M	"Stimulation in dHPC, FP in Nac"	4/23/21	AAV-CaMKII-eYFP in the dHPC and AAV-Syn-GCAMP7c in NAC					6/10/21	6/16/21	6/18/21	Y	Y
+12			55558C	Dyn 2	4	M	"Stimulation in dHPC, FP in Nac"	4/23/21	AAV-CaMKII-eYFP in the dHPC and AAV-Syn-GCAMP7c in NAC					6/10/21	6/16/21	6/18/21	Y	Y
+13			55558C	Dyn 2	5	M	"Stimulation in dHPC, FP in Nac"	4/23/21	AAV-CaMKII-eYFP in the dHPC and AAV-Syn-GCAMP7c in NAC					6/10/21	6/16/21	6/18/21	Y	Y
+14			55558C	Dyn 2	6	M	"Stimulation in dHPC, FP in Nac"	4/23/21	AAV-CaMKII-eYFP in the dHPC and AAV-Syn-GCAMP7c in NAC					6/10/21	6/16/21	6/18/21	Y	Y
+																		
+15	L102		55558C	Dyn 3	1	M	"Stimulation in dHPC, FP in Nac"	2/22/22	AAV-CaMKII-eYFP in the dHPC and AAV-Syn-GCAMP7c in NAC	ID#3846				4/29/22	5/3/22		Y	Y
+16	L102		55558C	Dyn 3	2	M	"Stimulation in dHPC, FP in Nac"	2/22/22	AAV-CaMKII-eYFP in the dHPC and AAV-Syn-GCAMP7c in NAC	FDIC ID#3850				-	-	-	-	Y
+17	L102		55558C	Dyn 3	3	M	"Stimulation in dHPC, FP in Nac"	2/22/22	AAV-CaMKII-eYFP in the dHPC and AAV-Syn-GCAMP7c in NAC	 FDIC ID#3851				-	-	-	-	Y
+18	L102		55558C	Dyn 3	4	F	"Stimulation in dHPC, FP in Nac"	2/22/22	AAV-CaMKII-eYFP in the dHPC and AAV-Syn-GCAMP7c in NAC	ID#3854				4/29/22	5/3/22		Y	Y
+19	L102		55558C	Dyn 3	5	F	"Stimulation in dHPC, FP in Nac"	2/22/22	AAV-CaMKII-eYFP in the dHPC and AAV-Syn-GCAMP7c in NAC	ID#3855				4/29/22	5/3/22		Y	Y
+20	L102		55558C	Dyn 3	2R	F	"Stimulation in dHPC, FP in Nac"	2/24/22	AAV-CaMKII-eYFP in the dHPC and AAV-Syn-GCAMP7c in NAC	ID#3857				4/29/22	5/3/22		Y	Y
+21	L102		55558C	Dyn 3	3R	F	"Stimulation in dHPC, FP in Nac"	2/24/22	AAV-CaMKII-eYFP in the dHPC and AAV-Syn-GCAMP7c in NAC	ID#3858				4/29/22	5/3/22		Y	Y

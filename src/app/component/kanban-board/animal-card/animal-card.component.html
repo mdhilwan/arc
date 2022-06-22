@@ -2,7 +2,7 @@
   <mat-card-content>
     <div class="header">
       <h3>
-        <span *ngIf="animal?.cageNo">{{animal?.cageNo}} - </span>
+        <span *ngIf="animal?.cageNo !== 'none'">{{animal?.cageNo}}</span> -
         <span>{{animal?.animalNumberInCage}}</span>
       </h3>
       <span class="control">

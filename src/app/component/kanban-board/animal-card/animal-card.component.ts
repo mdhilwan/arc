@@ -1,5 +1,5 @@
 import { Component, HostBinding, Input } from '@angular/core';
-import { AnimalModel } from '../../model/animal.model';
+import { AnimalModel } from '../../model/animalModel';
 
 @Component({
   selector: 'app-animal-card',

@@ -1,0 +1,73 @@
+Animal No	Parents	DOB	Location	Cage No	Animal No	Sex	Purpose	Surgery date	Injection	Comments			Pain model	Sac date	Section date	Mounted	Cryoprotect	Is Archived
+1	Enk49		5558C	Enk1	1	M	"Stimulation in dHPC, FP in Nac"	3/9/21	AAV-CaMKII-eYFP in the dHPC and AAV-Syn-GCAMP7c in NAC					4/14/21	5/4/21	Y	Y	Y
+2	Enk49		5558C	Enk1	2	M	"Stimulation in dHPC, FP in Nac"	3/9/21	AAV-CaMKII-eYFP in the dHPC and AAV-Syn-GCAMP7c in NAC						5/4/21	Y	Y	Y
+3	Enk49		5558C	Enk1	3	M	"Stimulation in dHPC, FP in Nac"	3/9/21	AAV-CaMKII-eYFP in the dHPC and AAV-Syn-GCAMP7c in NAC	FDIC				-	-	-	-	Y
+4	Enk49		5558C	Enk1	4	M	"Stimulation in dHPC, FP in Nac"	3/9/21	AAV-CaMKII-eYFP in the dHPC and AAV-Syn-GCAMP7c in NAC					4/14/21	4/22/21	Y	Y	Y
+5	Enk49		5558C	Enk1	5	M	"Stimulation in dHPC, FP in Nac"	3/9/21	AAV-CaMKII-eYFP in the dHPC and AAV-Syn-GCAMP7c in NAC						5/4/21	Y	Y	Y
+6	Enk49		5558C	Enk1	6	M	"Stimulation in dHPC, FP in Nac"	3/9/21	AAV-CaMKII-eYFP in the dHPC and AAV-Syn-GCAMP7c in NAC						4/22/21	Y	Y	Y
+7	Enk49		5558C	Enk1	7	M	"Stimulation in dHPC, FP in Nac"	3/9/21	AAV-CaMKII-eYFP in the dHPC and AAV-Syn-GCAMP7c in NAC						4/22/21	Y	Y	Y
+																		
+8			5558C	Enk2	1	M	"Stimulation in dHPC, FP in Nac"	4/23/21	AAV-CaMKII-eYFP in the dHPC and AAV-Syn-GCAMP7c in NAC					7/10/21	6/14/21	6/18/21	Y	Y
+9			5558C	Enk3	2	M	"Stimulation in dHPC, FP in Nac"	4/23/21	AAV-CaMKII-eYFP in the dHPC and AAV-Syn-GCAMP7c in NAC						6/14/21	6/18/21	Y	Y
+10			5558C	Enk4	3	M	"Stimulation in dHPC, FP in Nac"	4/23/21	AAV-CaMKII-eYFP in the dHPC and AAV-Syn-GCAMP7c in NAC						6/14/21	6/18/21	Y	Y
+																		
+11	Enk60	6/1/21	5558C	Enk3	1	M	"Stimulation in dHPC, FP in Nac"	7/19/21	AAV-CaMKII-eYFP in the dHPC and AAV-Syn-GCAMP7c in NAC					Y				Y
+12	Enk60	6/1/21	5558C	Enk3	2	M	"Stimulation in dHPC, FP in Nac"	7/19/21	AAV-CaMKII-eYFP in the dHPC and AAV-Syn-GCAMP7c in NAC	FDIC			-	-	-	-	-	Y
+13	Enk60	6/1/21	5558C	Enk3	3	M	"Stimulation in dHPC, FP in Nac"	7/19/21	AAV-CaMKII-eYFP in the dHPC and AAV-Syn-GCAMP7c in NAC					Y				Y
+																		
+14	EC L54	2/18/21	5558C	Enk4	1	F	"RTPT stim in the dHPC and GiDREAADS in the NAc, cre-dependent"	7/15/21	Bilateral NAc AAV5.hSYN.hM4Di.mCherry; rAAV5.CaMKII.ChR2.eYFP in the dHPC	ID# 2523			ENK+CNO	Y				Y
+15	EC L55	3/15/21	5558C	Enk5	1	F	"RTPT stim in the dHPC and GiDREAADS in the NAc, cre-dependent"	7/15/21	Bilateral NAc AAV5.hSYN.hM4Di.mCherry; rAAV5.CaMKII.ChR2.eYFP in the dHPC	ID#2616			WT+CNO	Y				Y
+16	EC L55	3/15/21	5558C	Enk5	2	F	"RTPT stim in the dHPC and GiDREAADS in the NAc, cre-dependent"	7/15/21	Bilateral NAc AAV5.hSYN.hM4Di.mCherry; rAAV5.CaMKII.ChR2.eYFP in the dHPC	ID#2615			ENK+SAL	Y				Y
+17	EC L55	3/15/21	5558C	Enk6	1	M	"RTPT stim in the dHPC and GiDREAADS in the NAc, cre-dependent"	7/15/21	Bilateral NAc AAV5.hSYN.hM4Di.mCherry; rAAV5.CaMKII.ChR2.eYFP in the dHPC	ID#2613			ENK+SAL	Y				Y
+18	EC L55	3/15/21	5558C	Enk6	2	M	"RTPT stim in the dHPC and GiDREAADS in the NAc, cre-dependent"	7/15/21	Bilateral NAc AAV5.hSYN.hM4Di.mCherry; rAAV5.CaMKII.ChR2.eYFP in the dHPC	ID#2612 FDIC			-	-	-	-	-	Y
+19	EC L55	3/15/21	5558C	Enk6	3	M	"RTPT stim in the dHPC and GiDREAADS in the NAc, cre-dependent"	7/15/21	Bilateral NAc AAV5.hSYN.hM4Di.mCherry; rAAV5.CaMKII.ChR2.eYFP in the dHPC	ID#2611			ENK+CNO	Y				Y
+20	EC L55	3/15/21	5558C	Enk6	4	M	"RTPT stim in the dHPC and GiDREAADS in the NAc, cre-dependent"	7/15/21	Bilateral NAc AAV5.hSYN.hM4Di.mCherry; rAAV5.CaMKII.ChR2.eYFP in the dHPC	ID#2614			WT+SAL	Y				Y
+21	EC L56	3/29/21	5558C	Enk7	1	F	"RTPT stim in the dHPC and GiDREAADS in the NAc, cre-dependent"	7/15/21	Bilateral NAc AAV5.hSYN.hM4Di.mCherry; rAAV5.CaMKII.ChR2.eYFP in the dHPC	ID#2664			ENK+CNO	Y				Y
+22	EC L56	3/29/21	5558C	Enk7	2	F	"RTPT stim in the dHPC and GiDREAADS in the NAc, cre-dependent"	7/15/21	Bilateral NAc AAV5.hSYN.hM4Di.mCherry; rAAV5.CaMKII.ChR2.eYFP in the dHPC	ID#2665			WT+CNO	Y				Y
+23	EC L57	4/14/21	5558C	Enk8	1	M	"RTPT stim in the dHPC and GiDREAADS in the NAc, cre-dependent"	7/15/21	Bilateral NAc AAV5.hSYN.hM4Di.mCherry; rAAV5.CaMKII.ChR2.eYFP in the dHPC	ID#2793			WT+CNO	Y				Y
+24	EC L57	4/14/21	5558C	Enk8	2	M	"RTPT stim in the dHPC and GiDREAADS in the NAc, cre-dependent"	7/15/21	Bilateral NAc AAV5.hSYN.hM4Di.mCherry; rAAV5.CaMKII.ChR2.eYFP in the dHPC	ID#2794			WT+SAL	Y				Y
+																		
+25	EC L59	5/10/21	5558C	Enk9	1	F	"RTPT stim in the dHPC and GiDREAADS in the NAc, cre-dependent"	7/29/21	Bilateral NAc AAV5.hSYN.hM4Di.mCherry; rAAV5.CaMKII.ChR2.eYFP in the dHPC	ID#2886			WT+SAL	Y				Y
+26	EC L59	5/10/21	5558C	Enk9	2	F	"RTPT stim in the dHPC and GiDREAADS in the NAc, cre-dependent"	7/29/21	Bilateral NAc AAV5.hSYN.hM4Di.mCherry; rAAV5.CaMKII.ChR2.eYFP in the dHPC	ID#2885			ENK+SAL	Y				Y
+27	EC L58	4/23/21	5558C	Enk9	3	M	"RTPT stim in the dHPC and GiDREAADS in the NAc, cre-dependent"	7/29/21	Bilateral NAc AAV5.hSYN.hM4Di.mCherry; rAAV5.CaMKII.ChR2.eYFP in the dHPC	ID#2813			ENK+CNO	Y				Y
+28	EC L58	4/23/21	5558C	Enk9	4	M	"RTPT stim in the dHPC and GiDREAADS in the NAc, cre-dependent"	7/29/21	Bilateral NAc AAV5.hSYN.hM4Di.mCherry; rAAV5.CaMKII.ChR2.eYFP in the dHPC	ID#2814			WT+CNO	Y				Y
+29	EC L58	4/23/21	5558C	Enk9	5	M	"RTPT stim in the dHPC and GiDREAADS in the NAc, cre-dependent"	7/29/21	Bilateral NAc AAV5.hSYN.hM4Di.mCherry; rAAV5.CaMKII.ChR2.eYFP in the dHPC	ID#2812			ENK+CNO	Y				Y
+30	EC L58	4/23/21	5558C	Enk9	6	M	"RTPT stim in the dHPC and GiDREAADS in the NAc, cre-dependent"	7/29/21	Bilateral NAc AAV5.hSYN.hM4Di.mCherry; rAAV5.CaMKII.ChR2.eYFP in the dHPC	ID#2815			ENK+SAL	Y				Y
+31	EC L58	4/23/21	5558C	Enk9	7	M	"RTPT stim in the dHPC and GiDREAADS in the NAc, cre-dependent"	7/30/21	Bilateral NAc AAV5.hSYN.hM4Di.mCherry; rAAV5.CaMKII.ChR2.eYFP in the dHPC	ID#2818 FDIC			WT	-	-	-	-	Y
+32	EC L58	4/23/21	5558C	Enk9	8	M	"RTPT stim in the dHPC and GiDREAADS in the NAc, cre-dependent"	7/30/21	Bilateral NAc AAV5.hSYN.hM4Di.mCherry; rAAV5.CaMKII.ChR2.eYFP in the dHPC	ID#2817 FDIC			WT	-	-	-	-	Y
+33	EC L58	4/23/21	5558C	Enk9	9	M	"RTPT stim in the dHPC and GiDREAADS in the NAc, cre-dependent"	7/30/21	Bilateral NAc AAV5.hSYN.hM4Di.mCherry; rAAV5.CaMKII.ChR2.eYFP in the dHPC	ID#2816			ENK+CNO	Y				Y
+34	EC L58	4/23/21	5558C	Enk10	1	F	"RTPT stim in the dHPC and GiDREAADS in the NAc, cre-dependent"	7/30/21	Bilateral NAc AAV5.hSYN.hM4Di.mCherry; rAAV5.CaMKII.ChR2.eYFP in the dHPC	ID#2825			ENK+SAL	Y				Y
+35	EC L58	4/23/21	5558C	Enk10	2	F	"RTPT stim in the dHPC and GiDREAADS in the NAc, cre-dependent"	7/30/21	Bilateral NAc AAV5.hSYN.hM4Di.mCherry; rAAV5.CaMKII.ChR2.eYFP in the dHPC	ID#2826			ENK+CNO	Y				Y
+36	EC L58	4/23/21	5558C	Enk10	3	F	"RTPT stim in the dHPC and GiDREAADS in the NAc, cre-dependent"	7/30/21	Bilateral NAc AAV5.hSYN.hM4Di.mCherry; rAAV5.CaMKII.ChR2.eYFP in the dHPC	ID#2827 FDIC			WT	-	-	-	-	Y
+37	EC L58	4/23/21	5558C	Enk10	4	F	"RTPT stim in the dHPC and GiDREAADS in the NAc, cre-dependent"	7/30/21	Bilateral NAc AAV5.hSYN.hM4Di.mCherry; rAAV5.CaMKII.ChR2.eYFP in the dHPC	ID#2824			ENK+SAL	Y				Y
+38	EC L58	4/23/21	5558C	Enk10	5	F	"RTPT stim in the dHPC and GiDREAADS in the NAc, cre-dependent"	7/30/21	Bilateral NAc AAV5.hSYN.hM4Di.mCherry; rAAV5.CaMKII.ChR2.eYFP in the dHPC	ID#2821			ENK+CNO	Y				Y
+39	EC L58	4/23/21	5558C	Enk10	6	F	"RTPT stim in the dHPC and GiDREAADS in the NAc, cre-dependent"	7/30/21	Bilateral NAc AAV5.hSYN.hM4Di.mCherry; rAAV5.CaMKII.ChR2.eYFP in the dHPC	ID#2822			WT+CNO	Y				Y
+40	EC L58	4/23/21	5558C	Enk10	7	F	"RTPT stim in the dHPC and GiDREAADS in the NAc, cre-dependent"	7/30/21	Bilateral NAc AAV5.hSYN.hM4Di.mCherry; rAAV5.CaMKII.ChR2.eYFP in the dHPC	ID#2823			ENK+SAL	Y				Y
+41	EC L58	4/23/21	5558C	Enk10	8	F	"RTPT stim in the dHPC and GiDREAADS in the NAc, cre-dependent"	7/30/21	Bilateral NAc AAV5.hSYN.hM4Di.mCherry; rAAV5.CaMKII.ChR2.eYFP in the dHPC	ID#2820			ENK+SAL	Y				Y
+42	EC L58	4/23/21	5558C	ENk10	9	F	"RTPT stim in the dHPC and GiDREAADS in the NAc, cre-dependent"	7/30/21	Bilateral NAc AAV5.hSYN.hM4Di.mCherry; rAAV5.CaMKII.ChR2.eYFP in the dHPC	ID#2819			WT+SAL	Y				Y
+																		
+43			5558C	ENK11	1	F	"Stimulation in dHPC, FP in Nac"	9/10/21	AAV-CaMKII-eYFP in the dHPC and AAV-Syn-GCAMP7c in NAC	ID#3069				Y				Y
+44			5558C	ENK11	2	F	"Stimulation in dHPC, FP in Nac"	9/10/21	AAV-CaMKII-eYFP in the dHPC and AAV-Syn-GCAMP7c in NAC	ID#3071				Y				Y
+45			5558C	ENK11	3	F	"Stimulation in dHPC, FP in Nac"	9/10/21	AAV-CaMKII-eYFP in the dHPC and AAV-Syn-GCAMP7c in NAC	ID#3073				Y				Y
+46			5558C	ENK11	4	F	"Stimulation in dHPC, FP in Nac"	9/10/21	AAV-CaMKII-eYFP in the dHPC and AAV-Syn-GCAMP7c in NAC	ID#3076				Y				Y
+																		
+47	L77		5558C	ENK12	1	F	"Stimulation in dHPC, FP in Nac"	2/22/22	AAV-CaMKII-eYFP in the dHPC and AAV-Syn-GCAMP7c in NAC	ID#3839				4/29/22	5/3/22		Y	Y
+48	L77		5558C	ENK12	2	F	"Stimulation in dHPC, FP in Nac"	2/22/22	AAV-CaMKII-eYFP in the dHPC and AAV-Syn-GCAMP7c in NAC					4/29/22	5/3/22		Y	Y
+49	L78		5558C	ENK12	3	M	"Stimulation in dHPC, FP in Nac"	2/22/22	AAV-CaMKII-eYFP in the dHPC and AAV-Syn-GCAMP7c in NAC	ID#3842				-	-	-	-	Y
+50	L78		5558C	ENK12	4	M	"Stimulation in dHPC, FP in Nac"	2/22/22	AAV-CaMKII-eYFP in the dHPC and AAV-Syn-GCAMP7c in NAC	ID#3843				-	-	-	-	Y
+51	L78		5558C	ENK12	3R	M	"Stimulation in dHPC, FP in Nac"	2/22/22	AAV-CaMKII-eYFP in the dHPC and AAV-Syn-GCAMP7c in NAC	ID#3844				4/29/22	5/3/22		Y	Y
+52			5558C	ENK12	4R	M	"Stimulation in dHPC, FP in Nac"	2/24/22	AAV-CaMKII-eYFP in the dHPC and AAV-Syn-GCAMP7c in NAC	ID#3796				4/29/22	5/3/22		Y	Y
+53			5558C	ENK12	5	M	"Stimulation in dHPC, FP in Nac"	2/24/22	AAV-CaMKII-eYFP in the dHPC and AAV-Syn-GCAMP7c in NAC	ID#3797				4/29/22	5/3/22		Y	Y
+54			5558C	ENK12	6	F	"Stimulation in dHPC, FP in Nac"	2/24/22	AAV-CaMKII-eYFP in the dHPC and AAV-Syn-GCAMP7c in NAC	ID#3800				4/29/22	5/3/22		Y	Y
+																		
+55	L82		5558C	ENK13	1	M	"Stimulation in dHPC, FP in Nac"	4/29/22	AAV-CaMKII-eYFP in the dHPC and AAV-Syn-GCAMP7c in NAC	ID#4033								
+56	L82		5558C	ENK13	2	M	"Stimulation in dHPC, FP in Nac"	4/29/22	AAV-CaMKII-eYFP in the dHPC and AAV-Syn-GCAMP7c in NAC	ID#4035								
+57	L82		5558C	ENK13	3	F	"Stimulation in dHPC, FP in Nac"	4/29/22	AAV-CaMKII-eYFP in the dHPC and AAV-Syn-GCAMP7c in NAC	ID#4036								
+58	L82		5558C	ENK13	4	F	"Stimulation in dHPC, FP in Nac"	4/29/22	AAV-CaMKII-eYFP in the dHPC and AAV-Syn-GCAMP7c in NAC	ID#4037								
+59	L82		5558C	ENK13	5	F	"Stimulation in dHPC, FP in Nac"	4/29/22	AAV-CaMKII-eYFP in the dHPC and AAV-Syn-GCAMP7c in NAC	ID#4038								
+60	L82		5558C	ENK13	6	F	"Stimulation in dHPC, FP in Nac"	4/29/22	AAV-CaMKII-eYFP in the dHPC and AAV-Syn-GCAMP7c in NAC	ID#4040								
+61	L81		5558C	ENK13	7	F	"Stimulation in dHPC, FP in Nac"	4/29/22	AAV-CaMKII-eYFP in the dHPC and AAV-Syn-GCAMP7c in NAC	ID#4026								
+62	L81		5558C	ENK13	8	F	"Stimulation in dHPC, FP in Nac"	4/29/22	AAV-CaMKII-eYFP in the dHPC and AAV-Syn-GCAMP7c in NAC	ID#4027								
+63	L83		5558C	ENK13	9	F	"Stimulation in dHPC, FP in Nac"	4/29/22	AAV-CaMKII-eYFP in the dHPC and AAV-Syn-GCAMP7c in NAC	ID#4120								
+64	L83		5558C	ENK13	10	F	"Stimulation in dHPC, FP in Nac"	4/29/22	AAV-CaMKII-eYFP in the dHPC and AAV-Syn-GCAMP7c in NAC	ID#4122								
+65	L83		5558C	ENK13	11	M	"Stimulation in dHPC, FP in Nac"	4/29/22	AAV-CaMKII-eYFP in the dHPC and AAV-Syn-GCAMP7c in NAC	ID#4117								

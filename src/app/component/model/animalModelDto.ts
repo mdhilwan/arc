@@ -1,10 +1,10 @@
-import { AnimalInterface } from '../../interface/animalInterface';
+import { AnimalInterfaceDto } from '../../interface/animalInterfaceDto';
 
-export class AnimalModel {
+export class AnimalModelDto {
 
-  _data: AnimalInterface | undefined;
+  _data: AnimalInterfaceDto | undefined;
 
-  constructor(data: AnimalInterface) {
+  constructor(data: AnimalInterfaceDto) {
     this._data = data;
   }
 
