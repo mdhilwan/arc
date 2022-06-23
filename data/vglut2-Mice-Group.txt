@@ -1,0 +1,4 @@
+Animal No	Parents	DOB	Location	Cage No	Animal No	Sex	Purpose	Surgery date	Injection	Comments			Pain model	Sac date	Section date	Mounted	Cryoprotect	Is Archived
+1	BL6-L6		5558C	79	1	M	Tracing in dHPC to see cell bodies in MS	5/11/21	retro-AAV-CAG-eYFP in dHPC									
+2	BL6-L6		5558C	79	2	M	Tracing in dHPC to see cell bodies in MS		retro-AAV-CAG-eYFP in dHPC									
+3	BL6-L6		5558C	79	3	M	Tracing in dHPC to see cell bodies in MS		retro-AAV-CAG-eYFP in dHPC									
