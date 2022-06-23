@@ -1,8 +1,8 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { CdkDragDrop, moveItemInArray, transferArrayItem } from '@angular/cdk/drag-drop';
 import { AnimalDataService } from '../../service/animal-data.service';
-import { AnimalModelDto } from '../model/animalModelDto';
-import { AnimalModel } from '../model/animalModel';
+import { AnimalModelDto } from '../../model/animalModelDto';
+import { AnimalModel } from '../../model/animalModel';
 import { ControlPanelService } from '../../service/control-panel.service';
 
 @Component({

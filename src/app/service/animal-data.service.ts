@@ -1,8 +1,8 @@
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpHeaders, HttpParams } from '@angular/common/http';
 import { BehaviorSubject, forkJoin, map, Observable } from 'rxjs';
-import { AnimalModelDto } from '../component/model/animalModelDto';
-import { AnimalModel } from '../component/model/animalModel';
+import { AnimalModelDto } from '../model/animalModelDto';
+import { AnimalModel } from '../model/animalModel';
 
 @Injectable({
   providedIn: 'root'

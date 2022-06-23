@@ -1,7 +1,7 @@
 import { Component, HostBinding, Input } from '@angular/core';
 import { CdkDragDrop, moveItemInArray, transferArrayItem } from '@angular/cdk/drag-drop';
 import { ControlPanelService } from '../../../service/control-panel.service';
-import { AnimalModel } from '../../model/animalModel';
+import { AnimalModel } from '../../../model/animalModel';
 
 @Component({
   selector: 'app-animal-board',

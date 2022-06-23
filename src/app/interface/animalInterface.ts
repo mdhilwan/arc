@@ -17,4 +17,5 @@ export interface AnimalInterface {
   sectionDate: string;
   sex: string;
   surgeryDate: string;
+  type: string;
 }

@@ -5,7 +5,7 @@
     <div class="header">
       <h3>
         <span *ngIf="animal?.cageNo !== 'none'">{{animal?.cageNo}}</span> -
-        <span>{{animal?.animalNumberInCage}}</span>
+        <span>{{animal?.animalNumberInCage}} {{animal?.animalNumber}}</span>
       </h3>
       <span class="control">
         <span *ngIf="animal?.isArchived">
@@ -19,7 +19,7 @@
     </div>
   </mat-card-content>
   <mat-card-actions>
-    <button mat-button (click)="viewDetails($event)">
+    <button mat-button (click)="viewDetails()">
       <mat-icon>more_horiz</mat-icon>
     </button>
   </mat-card-actions>

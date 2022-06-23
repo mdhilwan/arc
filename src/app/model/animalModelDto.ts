@@ -1,4 +1,4 @@
-import { AnimalInterfaceDto } from '../../interface/animalInterfaceDto';
+import { AnimalInterfaceDto } from '../interface/animalInterfaceDto';
 
 export class AnimalModelDto {
 

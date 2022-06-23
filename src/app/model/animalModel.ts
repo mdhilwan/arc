@@ -1,4 +1,4 @@
-import { AnimalInterface } from '../../interface/animalInterface';
+import { AnimalInterface } from '../interface/animalInterface';
 
 export class AnimalModel {
 
@@ -98,5 +98,9 @@ export class AnimalModel {
 
   get sex(): string {
     return <string>this._data?.sex;
+  }
+
+  get type(): string {
+    return <string>this._data?.type;
   }
 }

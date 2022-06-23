@@ -26,6 +26,8 @@ import { MatBadgeModule } from '@angular/material/badge';
 import { MatProgressBarModule } from '@angular/material/progress-bar';
 import { LayoutModule } from '@angular/cdk/layout';
 import { AnimalBoardComponent } from './component/kanban-board/animal-board/animal-board.component';
+import { AnimalDetailsComponent } from './component/modal/animal-details/animal-details.component';
+import { MatDialogModule } from '@angular/material/dialog';
 
 @NgModule({
   declarations: [
@@ -36,7 +38,8 @@ import { AnimalBoardComponent } from './component/kanban-board/animal-board/anim
     KanbanBoardComponent,
     FooterComponent,
     AnimalCardComponent,
-    AnimalBoardComponent
+    AnimalBoardComponent,
+    AnimalDetailsComponent
   ],
   imports: [
     BrowserModule,
@@ -49,6 +52,7 @@ import { AnimalBoardComponent } from './component/kanban-board/animal-board/anim
     MatSidenavModule,
     MatToolbarModule,
     MatListModule,
+    MatDialogModule,
     DragDropModule,
     MatButtonToggleModule,
     HttpClientModule,
