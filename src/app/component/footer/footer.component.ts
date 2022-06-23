@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { FormControl, FormGroup } from '@angular/forms';
+import { UntypedFormControl, UntypedFormGroup } from '@angular/forms';
 import { ControlPanelService } from '../../service/control-panel.service';
 
 @Component({
@@ -8,9 +8,9 @@ import { ControlPanelService } from '../../service/control-panel.service';
   styleUrls: ['./footer.component.scss']
 })
 export class FooterComponent {
-  controlPanel = new FormGroup({
-    draggable: new FormControl(false),
-    isArchived: new FormControl(false),
+  controlPanel = new UntypedFormGroup({
+    draggable: new UntypedFormControl(false),
+    isArchived: new UntypedFormControl(false),
   })
 
   constructor(private controlPanelService: ControlPanelService) {

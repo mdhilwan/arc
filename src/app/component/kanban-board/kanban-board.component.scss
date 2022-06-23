@@ -4,6 +4,7 @@ $total-boards: 7;
 $board-bg: #f5ebeb;
 $board-bg-draggable: #ebeff5;
 $total-boards-less-one: $total-boards - 1;
+@use "sass:math";
 
 .content {
   padding: 0;
@@ -34,7 +35,7 @@ $total-boards-less-one: $total-boards - 1;
     background-color: $board-bg;
   }
 
-  width: calc(#{100% / $total-boards} - #{$board-padding * 2} - #{#{$board-margin * $total-boards-less-one}/$total-boards});
+  width: calc(#{math.div(100%, $total-boards)} - #{$board-padding * 2} - #{#{$board-margin * $total-boards-less-one}/$total-boards});
   max-width: 100%;
   padding: $board-padding;
   display: inline-block;
