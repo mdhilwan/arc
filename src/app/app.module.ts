@@ -30,6 +30,8 @@ import { AnimalDetailsComponent } from './component/modal/animal-details/animal-
 import { MatDialogModule } from '@angular/material/dialog';
 import { DetailsTableComponent } from './component/modal/animal-details/details-table/details-table.component';
 import { EditDetailsTableComponent } from './component/modal/animal-details/edit-details-table/edit-details-table.component';
+import {MatDatepickerModule} from "@angular/material/datepicker";
+import {MatNativeDateModule} from "@angular/material/core";
 
 @NgModule({
   declarations: [
@@ -57,6 +59,8 @@ import { EditDetailsTableComponent } from './component/modal/animal-details/edit
     MatToolbarModule,
     MatListModule,
     MatDialogModule,
+    MatDatepickerModule,
+    MatNativeDateModule,
     DragDropModule,
     MatButtonToggleModule,
     HttpClientModule,
