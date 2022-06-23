@@ -6,6 +6,7 @@ export interface AnimalInterface {
   cryoprotect: string;
   dOB: string;
   injection: string;
+  isArchived: string;
   location: string;
   mounted: string;
   painModel: string;

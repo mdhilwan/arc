@@ -16,6 +16,10 @@ export class AnimalModel {
     return this._data?.animalNoInCage;
   }
 
+  get isArchived(): boolean {
+    return !!this._data?.isArchived;
+  }
+
   get sectionDate(): string | undefined {
     return this._data?.sectionDate;
   }
@@ -61,7 +65,7 @@ export class AnimalModel {
   }
 
   get fdic(): boolean {
-    return this.comments.search(/FDIC/g) > -1;
+    return this.comments.indexOf('FDIC') > -1;
   }
 
   get parents(): string {

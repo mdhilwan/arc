@@ -1,7 +1,6 @@
 import { Component } from '@angular/core';
-import { FormControl } from '@angular/forms';
-import { DragDropService } from '../../service/drag-drop.service';
-import { AnimalDataService } from '../../service/animal-data.service';
+import { FormControl, FormGroup } from '@angular/forms';
+import { ControlPanelService } from '../../service/control-panel.service';
 
 @Component({
   selector: 'app-footer',
@@ -9,23 +8,30 @@ import { AnimalDataService } from '../../service/animal-data.service';
   styleUrls: ['./footer.component.scss']
 })
 export class FooterComponent {
-  draggable = new FormControl(false);
+  controlPanel = new FormGroup({
+    draggable: new FormControl(false),
+    isArchived: new FormControl(false),
+  })
 
-  constructor(private dragDropService: DragDropService,
-              private animalDataService: AnimalDataService) {
-    this.draggable.valueChanges.subscribe((val: boolean) => {
-      this.dragDropService.setIsDraggable(!val)
+  constructor(private controlPanelService: ControlPanelService) {
+    this.controlPanel.valueChanges.subscribe((val: any) => {
+      this.controlPanelService.setControl(val)
     })
   }
 
   toggleDraggable() {
-    this.draggable.setValue(!this.draggable.value);
+    const cur = this.controlPanel.get('draggable')?.value;
+
+    this.controlPanel.patchValue({
+      draggable: !cur
+    })
   }
 
-  toggleDraggableClass() {
-    if (!this.draggable.value) {
-      return 'mat-button-disabled'
-    }
-    return ''
+  toggleViewArchived() {
+    const cur = this.controlPanel.get('isArchived')?.value;
+
+    this.controlPanel.patchValue({
+      isArchived: !cur
+    })
   }
 }

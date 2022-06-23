@@ -1,4 +1,4 @@
-import { Component, HostBinding, Input } from '@angular/core';
+import { Component, HostBinding, Inject, Input } from '@angular/core';
 import { AnimalModel } from '../../model/animalModel';
 
 @Component({
@@ -11,6 +11,10 @@ export class AnimalCardComponent {
   @Input() animal: AnimalModel | undefined
   @HostBinding('class') class = 'animal-card';
 
-  constructor() { }
+  constructor() {
+  }
 
+  viewDetails($event: MouseEvent) {
+    console.log(this.animal);
+  }
 }

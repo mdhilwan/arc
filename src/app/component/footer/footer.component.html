@@ -9,10 +9,20 @@
 
   <span>ARC - Animal Research Cycle</span>
   <span class="menu-spacer"></span>
-  <button mat-icon-button *ngIf="draggable.value" (click)="toggleDraggable()">
-    <mat-icon>flip_to_front</mat-icon>
-  </button>
-  <button mat-icon-button class="mat-button-disabled" *ngIf="!draggable.value" (click)="toggleDraggable()">
-    <mat-icon>flip_to_front</mat-icon>
-  </button>
+  <span class="isArchived-toggle" (click)="toggleViewArchived()">
+    <button mat-icon-button *ngIf="controlPanel.get('isArchived')?.value">
+      <mat-icon>archive</mat-icon>
+    </button>
+    <button mat-icon-button *ngIf="!controlPanel.get('isArchived')?.value" class="mat-button-disabled">
+      <mat-icon>archive</mat-icon>
+    </button>
+  </span>
+  <span class="draggable-toggle" (click)="toggleDraggable()">
+    <button mat-icon-button *ngIf="controlPanel.get('draggable')?.value">
+      <mat-icon>flip_to_front</mat-icon>
+    </button>
+    <button mat-icon-button *ngIf="!controlPanel.get('draggable')?.value" class="mat-button-disabled">
+      <mat-icon>flip_to_front</mat-icon>
+    </button>
+  </span>
 </mat-toolbar>

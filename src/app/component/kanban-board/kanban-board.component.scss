@@ -1,13 +1,25 @@
 $board-padding: 0.5rem;
 $board-margin: 0.5rem;
 $total-boards: 7;
-$board-bg: #ebeff5;
+$board-bg: #f5ebeb;
+$board-bg-draggable: #ebeff5;
 $total-boards-less-one: $total-boards - 1;
 
 .content {
-  padding: 1rem 1rem;
+  padding: 0;
   height: calc(100% - 7rem);
   display: flex;
+}
+
+.header-collection {
+  position: sticky;
+  z-index: 1001;
+  top: 0;
+  height: 1.5rem;
+
+  span {
+    font-size: 14px;
+  }
 }
 
 .all-boards {
@@ -18,12 +30,16 @@ $total-boards-less-one: $total-boards - 1;
 
 .single-board {
 
+  &.is-archived {
+    background-color: $board-bg;
+  }
+
   width: calc(#{100% / $total-boards} - #{$board-padding * 2} - #{#{$board-margin * $total-boards-less-one}/$total-boards});
   max-width: 100%;
   padding: $board-padding;
   display: inline-block;
   vertical-align: top;
-  background-color: $board-bg;
+  background-color: $board-bg-draggable;
   margin-right: $board-margin;
   min-height: 100%;
 

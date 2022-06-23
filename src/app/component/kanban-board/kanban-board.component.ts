@@ -1,8 +1,9 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import { CdkDragDrop, moveItemInArray, transferArrayItem } from '@angular/cdk/drag-drop';
 import { AnimalDataService } from '../../service/animal-data.service';
 import { AnimalModelDto } from '../model/animalModelDto';
 import { AnimalModel } from '../model/animalModel';
+import { ControlPanelService } from '../../service/control-panel.service';
 
 @Component({
   selector: 'app-kanban-board',
@@ -10,6 +11,12 @@ import { AnimalModel } from '../model/animalModel';
   styleUrls: ['./kanban-board.component.scss']
 })
 export class KanbanBoardComponent implements OnInit {
+
+  @Input() collectionType: string = '';
+
+  viewArchived: boolean = false;
+
+  allAnimals: AnimalModel[] = [];
 
   newAnimals: AnimalModel[] = [];
   inProgressAnimals: AnimalModel[] = [];
@@ -19,16 +26,23 @@ export class KanbanBoardComponent implements OnInit {
   cryoProtectAnimals: AnimalModel[] = [];
   fdicAnimals: AnimalModel[] = [];
 
-  constructor(private animalDataService: AnimalDataService) { }
+  constructor(private animalDataService: AnimalDataService,
+              private controlPanelService: ControlPanelService) { }
 
   async ngOnInit() {
-    this.animalDataService.getData$().subscribe((data: AnimalModel[]) => {
+    this.animalDataService.getData$(this.collectionType).subscribe((data: AnimalModel[]) => {
       if (data) {
-        data.forEach(dat => {
-          this.funnelAnimalModelsIntoSwimLanes(dat);
-        })
+        this.allAnimals = data;
+        this.doFilterAnimals();
       }
     });
+    this.controlPanelService.getControl().subscribe(controlPanel => {
+      if (controlPanel) {
+        this.viewArchived = controlPanel.isArchived;
+        this.revertAnimalCollection();
+        this.doFilterAnimals();
+      }
+    })
   }
 
   drop(event: CdkDragDrop<AnimalModelDto[]>) {
@@ -48,6 +62,32 @@ export class KanbanBoardComponent implements OnInit {
     }
   }
 
+  private doFilterAnimals() {
+    this.getFilteredAnimals().forEach(dat => this.funnelAnimalModelsIntoSwimLanes(dat));
+    this.fdicAnimals.sort(KanbanBoardComponent.getCompareFn())
+    this.cryoProtectAnimals.sort(KanbanBoardComponent.getCompareFn())
+    this.mountedAnimals.sort(KanbanBoardComponent.getCompareFn())
+    this.sectionedAnimals.sort(KanbanBoardComponent.getCompareFn())
+    this.sacrificedAnimals.sort(KanbanBoardComponent.getCompareFn())
+    this.inProgressAnimals.sort(KanbanBoardComponent.getCompareFn())
+  }
+
+  private static getCompareFn() {
+    return (a: AnimalModel, b: AnimalModel) => {
+      return a.isArchived === b.isArchived ? 0 :
+        a.isArchived ? 1 : -1;
+    };
+  }
+
+  private getFilteredAnimals() {
+    return this.allAnimals.filter(animal => {
+      if (this.viewArchived) {
+        return true;
+      }
+      return !animal.isArchived
+    });
+  }
+
   private funnelAnimalModelsIntoSwimLanes(animal: AnimalModel) {
     if (animal.fdic) {
       this.fdicAnimals.push(animal);
@@ -62,5 +102,14 @@ export class KanbanBoardComponent implements OnInit {
     } else {
       this.inProgressAnimals.push(animal);
     }
+  }
+
+  private revertAnimalCollection() {
+    this.fdicAnimals = [];
+    this.cryoProtectAnimals = [];
+    this.mountedAnimals = [];
+    this.sectionedAnimals = [];
+    this.sacrificedAnimals = [];
+    this.inProgressAnimals = [];
   }
 }

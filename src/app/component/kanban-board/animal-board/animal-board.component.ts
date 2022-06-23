@@ -1,6 +1,6 @@
 import { Component, HostBinding, Input } from '@angular/core';
 import { CdkDragDrop, moveItemInArray, transferArrayItem } from '@angular/cdk/drag-drop';
-import { DragDropService } from '../../../service/drag-drop.service';
+import { ControlPanelService } from '../../../service/control-panel.service';
 import { AnimalModel } from '../../model/animalModel';
 
 @Component({
@@ -16,11 +16,14 @@ export class AnimalBoardComponent {
 
   @HostBinding() class = 'single-board';
 
-  dragDisabled: boolean = false;
+  dragDisabled: boolean = true;
 
-  constructor(public dragDropService: DragDropService) {
-    this.dragDropService.getIsDraggable().subscribe((draggable: boolean) => {
-      this.dragDisabled = draggable;
+  constructor(public controlPanelService: ControlPanelService) {
+    this.controlPanelService.getControl().subscribe((controlPanel: any) => {
+      if (controlPanel) {
+        this.dragDisabled = !controlPanel.draggable;
+        this.class = controlPanel.draggable ? 'single-board is-archived' : 'single-board';
+      }
     })
   }
 

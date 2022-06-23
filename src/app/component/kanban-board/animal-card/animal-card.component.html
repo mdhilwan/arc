@@ -1,4 +1,6 @@
-<mat-card class="example-card">
+<mat-card class="animal-wrapper-card" [ngClass]="{
+  'is-archived' : animal?.isArchived
+}">
   <mat-card-content>
     <div class="header">
       <h3>
@@ -6,6 +8,9 @@
         <span>{{animal?.animalNumberInCage}}</span>
       </h3>
       <span class="control">
+        <span *ngIf="animal?.isArchived">
+          <mat-icon inline>archive</mat-icon>
+        </span>
         <span *ngIf="animal?.sex">
           <mat-icon inline *ngIf="animal?.sex === 'M'">male</mat-icon>
           <mat-icon inline *ngIf="animal?.sex === 'F'">female</mat-icon>
@@ -14,7 +19,7 @@
     </div>
   </mat-card-content>
   <mat-card-actions>
-    <button mat-button>
+    <button mat-button (click)="viewDetails($event)">
       <mat-icon>more_horiz</mat-icon>
     </button>
   </mat-card-actions>
