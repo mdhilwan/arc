@@ -1,8 +1,8 @@
-import { Injectable } from '@angular/core';
-import { HttpClient, HttpHeaders, HttpParams } from '@angular/common/http';
-import { BehaviorSubject, forkJoin, map, Observable } from 'rxjs';
-import { AnimalModelDto } from '../model/animalModelDto';
-import { AnimalModel } from '../model/animalModel';
+import {Injectable} from '@angular/core';
+import {HttpClient, HttpHeaders, HttpParams} from '@angular/common/http';
+import {BehaviorSubject, forkJoin, map, Observable} from 'rxjs';
+import {AnimalModelDto} from '../model/animalModelDto';
+import {AnimalModel} from '../model/animalModel';
 
 @Injectable({
   providedIn: 'root'
@@ -91,6 +91,7 @@ export class AnimalDataService {
           animalJsonObject = AnimalDataService.cleanJsonObject(animalJsonObject);
           animalJsonObject = AnimalDataService.addUniqueIds(animalJsonObject);
           animalJsonObject = AnimalDataService.addType(type, animalJsonObject);
+          animalJsonObject = AnimalDataService.convertDates(animalJsonObject);
           return AnimalDataService.makeCollectionOfAnimalModels(animalJsonObject);
           ////////// this.setAnimal$(animalJsonObject)
         })
@@ -193,6 +194,28 @@ export class AnimalDataService {
       entry.type = type;
       return entry;
     })
+  }
+
+  private static convertDates(animalJsonObject: any[]) {
+    return animalJsonObject.map((entry: any) => {
+      this.doConvertDates(entry, 'surgeryDate');
+      this.doConvertDates(entry, 'sectionDate');
+      this.doConvertDates(entry, 'cryoprotect');
+      this.doConvertDates(entry, 'mounted');
+      this.doConvertDates(entry, 'sacDate');
+      this.doConvertDates(entry, 'dOB');
+      return entry;
+    })
+  }
+
+  private static doConvertDates(entry: any, attr: string) {
+    if (entry[attr]) {
+      if (entry[attr] !== 'Y') {
+        entry[attr] = new Date(entry[attr]).toDateString();
+      } else {
+        entry[attr] = 'No Date Provided';
+      }
+    }
   }
 
   private static makeCollectionOfAnimalModels(animalJsonObject: any[]) {

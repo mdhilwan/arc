@@ -8,61 +8,14 @@
     </p>
   </mat-card-subtitle>
   <mat-card-content>
-    <table class="mat-table">
-      <tbody>
-        <tr *ngIf="animalModel.animalNumber">
-          <td><strong>Date of Birth</strong></td>
-          <td>{{animalModel.dob}}</td>
-        </tr>
-        <tr *ngIf="animalModel.parents">
-          <td><strong>Parents</strong></td>
-          <td>{{animalModel.parents}}</td>
-        </tr>
-        <tr *ngIf="animalModel.location">
-          <td><strong>Location</strong></td>
-          <td>{{animalModel.location}}</td>
-        </tr>
-        <tr *ngIf="animalModel.sex">
-          <td><strong>Sex</strong></td>
-          <td>
-            {{animalModel.sex}}
-            <mat-icon inline *ngIf="animalModel?.sex === 'M'">male</mat-icon>
-            <mat-icon inline *ngIf="animalModel?.sex === 'F'">female</mat-icon>
-          </td>
-        </tr>
-        <tr *ngIf="animalModel.injection">
-          <td><strong>Injection</strong></td>
-          <td>{{animalModel.injection}}</td>
-        </tr>
-        <tr *ngIf="animalModel.comments">
-          <td><strong>Comments</strong></td>
-          <td>{{animalModel.comments}}</td>
-        </tr>
-        <tr *ngIf="animalModel.purpose">
-          <td><strong>Purpose</strong></td>
-          <td>{{animalModel.purpose}}</td>
-        </tr>
-        <tr *ngIf="animalModel.painModel">
-          <td><strong>Pain Model</strong></td>
-          <td>{{animalModel.painModel}}</td>
-        </tr>
-        <tr *ngIf="animalModel.surgeryDate">
-          <td><strong>Surgery Date</strong></td>
-          <td>{{animalModel.surgeryDate}}</td>
-        </tr>
-        <tr *ngIf="animalModel.sacDate">
-          <td><strong>Sacrificed Date</strong></td>
-          <td>{{animalModel.sacDate}}</td>
-        </tr>
-        <tr *ngIf="animalModel.cryoprotect">
-          <td><strong>Cryoprotect Date</strong></td>
-          <td>{{animalModel.cryoprotect}}</td>
-        </tr>
-      </tbody>
-    </table>
+    <app-details-table [animalModel]="animalModel" *ngIf="!editing"></app-details-table>
+    <app-edit-details-table [animalModel]="animalModel" *ngIf="editing"></app-edit-details-table>
   </mat-card-content>
   <mat-card-actions>
     <button mat-button (click)="dialogRef.close(animalModel?.animalNumber)">OK</button>
-    <button mat-button>Edit</button>
+    <button mat-button (click)="editAnimal()">
+      <span *ngIf="!editing">Edit</span>
+      <span *ngIf="editing">Save</span>
+    </button>
   </mat-card-actions>
 </mat-card>

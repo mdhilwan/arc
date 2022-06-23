@@ -1,0 +1,22 @@
+.mat-table {
+
+  width: 100%;
+
+  tr:first-child {
+    td:first-child {
+      width: 20%;
+    }
+  }
+
+  td {
+    padding: 0.5rem 0.25rem;
+  }
+
+  .code {
+    padding: 0.2rem 0.4rem;
+    font-size: .875em;
+    color: #fff;
+    background-color: #212529;
+    border-radius: 0.2rem;
+  }
+}

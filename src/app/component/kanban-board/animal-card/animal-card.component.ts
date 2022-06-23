@@ -17,8 +17,6 @@ export class AnimalCardComponent {
   }
 
   viewDetails() {
-    console.log(this.animal);
-
     const dialogRef = this.dialog.open<string>(AnimalDetailsComponent, {
       width: '550px',
       data: this.animal,

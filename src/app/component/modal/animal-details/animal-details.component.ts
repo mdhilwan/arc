@@ -9,6 +9,12 @@ import { AnimalModel } from '../../../model/animalModel';
 })
 export class AnimalDetailsComponent {
 
+  editing: boolean = false;
+
   constructor(public dialogRef: DialogRef<string>, @Inject(DIALOG_DATA) public animalModel: AnimalModel) {}
 
+  editAnimal() {
+    this.editing = !this.editing;
+    // console.log(this.animalModel);
+  }
 }

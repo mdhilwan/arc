@@ -28,6 +28,8 @@ import { LayoutModule } from '@angular/cdk/layout';
 import { AnimalBoardComponent } from './component/kanban-board/animal-board/animal-board.component';
 import { AnimalDetailsComponent } from './component/modal/animal-details/animal-details.component';
 import { MatDialogModule } from '@angular/material/dialog';
+import { DetailsTableComponent } from './component/modal/animal-details/details-table/details-table.component';
+import { EditDetailsTableComponent } from './component/modal/animal-details/edit-details-table/edit-details-table.component';
 
 @NgModule({
   declarations: [
@@ -39,7 +41,9 @@ import { MatDialogModule } from '@angular/material/dialog';
     FooterComponent,
     AnimalCardComponent,
     AnimalBoardComponent,
-    AnimalDetailsComponent
+    AnimalDetailsComponent,
+    DetailsTableComponent,
+    EditDetailsTableComponent
   ],
   imports: [
     BrowserModule,
