@@ -1,0 +1,20 @@
+.mat-table {
+
+  width: 100%;
+
+  tr:first-child {
+    td:first-child {
+      width: 15%;
+    }
+    td:nth-child(3) {
+      width: 15%;
+    }
+    td {
+      width: 35%;
+    }
+  }
+
+  .mat-form-field {
+    width: 100%;
+  }
+}

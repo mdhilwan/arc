@@ -18,8 +18,8 @@ export class AnimalCardComponent {
 
   viewDetails() {
     const dialogRef = this.dialog.open<string>(AnimalDetailsComponent, {
-      width: '550px',
-      data: this.animal,
+      width: '800px',
+      data: this.animal
     });
 
     dialogRef.closed.subscribe(result => {
