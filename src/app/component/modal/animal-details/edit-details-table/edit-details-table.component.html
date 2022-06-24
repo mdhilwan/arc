@@ -1,130 +1,143 @@
-<form [formGroup]="animalModelFormGroup">
-  <table class="mat-table">
-    <tbody>
-    <tr>
-      <td><strong>Date of Birth</strong></td>
-      <td>
-        <mat-form-field appearance="fill">
-          <mat-label>Date of Birth</mat-label>
-          <input matInput [matDatepicker]="dob" formControlName="dob">
-          <mat-hint>MM/DD/YYYY</mat-hint>
-          <mat-datepicker-toggle matSuffix [for]="dob"></mat-datepicker-toggle>
-          <mat-datepicker #dob></mat-datepicker>
-        </mat-form-field>
-      </td>
-      <td><strong>Surgery Date</strong></td>
-      <td>
-        <mat-form-field appearance="fill">
-          <mat-label>Surgery Date</mat-label>
-          <input matInput [matDatepicker]="surgeryDate" formControlName="surgeryDate">
-          <mat-hint>MM/DD/YYYY</mat-hint>
-          <mat-datepicker-toggle matSuffix [for]="surgeryDate"></mat-datepicker-toggle>
-          <mat-datepicker #surgeryDate></mat-datepicker>
-        </mat-form-field>
-      </td>
-    </tr>
-    <tr>
-      <td><strong>Parents</strong></td>
-      <td>
-        <mat-form-field appearance="fill">
-          <mat-label>Parents</mat-label>
-          <input matInput formControlName="parents">
-        </mat-form-field>
-      </td>
-      <td><strong>Sacrificed Date</strong></td>
-      <td>
-        <mat-form-field appearance="fill">
-          <mat-label>Sacrificed Date</mat-label>
-          <input matInput [matDatepicker]="sacDate" formControlName="sacDate">
-          <mat-hint>MM/DD/YYYY</mat-hint>
-          <mat-datepicker-toggle matSuffix [for]="sacDate"></mat-datepicker-toggle>
-          <mat-datepicker #sacDate></mat-datepicker>
-        </mat-form-field>
-      </td>
-    </tr>
-    <tr>
-      <td><strong>Location</strong></td>
-      <td>
-        <mat-form-field appearance="fill">
-          <mat-label>Location</mat-label>
-          <input matInput formControlName="location">
-        </mat-form-field>
-      </td>
-      <td><strong>Sectioned Date</strong></td>
-      <td>
-        <mat-form-field appearance="fill">
-          <mat-label>Sectioned Date</mat-label>
-          <input matInput [matDatepicker]="sectionDate" formControlName="sectionDate">
-          <mat-hint>MM/DD/YYYY</mat-hint>
-          <mat-datepicker-toggle matSuffix [for]="sectionDate"></mat-datepicker-toggle>
-          <mat-datepicker #sectionDate></mat-datepicker>
-        </mat-form-field>
-      </td>
-    </tr>
-    <tr>
-      <td><strong>Pain Model</strong></td>
-      <td>
-        <mat-form-field appearance="fill">
-          <mat-label>Pain Model</mat-label>
-          <input matInput formControlName="painModel">
-        </mat-form-field>
-      </td>
-      <td><strong>Mounted Date</strong></td>
-      <td>
-        <mat-form-field appearance="fill">
-          <mat-label>Mounted Date</mat-label>
-          <input matInput [matDatepicker]="mounted" formControlName="mounted">
-          <mat-hint>MM/DD/YYYY</mat-hint>
-          <mat-datepicker-toggle matSuffix [for]="mounted"></mat-datepicker-toggle>
-          <mat-datepicker #mounted></mat-datepicker>
-        </mat-form-field>
-      </td>
-    </tr>
-    <tr>
-      <td><strong>Sex</strong></td>
-      <td>
-        {{animalModel?.sex}}
-        <mat-icon inline *ngIf="animalModel?.sex === 'M'">male</mat-icon>
-        <mat-icon inline *ngIf="animalModel?.sex === 'F'">female</mat-icon>
-      </td>
-      <td><strong>Cryoprotect Date</strong></td>
-      <td>
-        <mat-form-field appearance="fill">
-          <mat-label>Cryoprotect Date</mat-label>
-          <input matInput [matDatepicker]="cryoprotect" formControlName="cryoprotect">
-          <mat-hint>MM/DD/YYYY</mat-hint>
-          <mat-datepicker-toggle matSuffix [for]="cryoprotect"></mat-datepicker-toggle>
-          <mat-datepicker #cryoprotect></mat-datepicker>
-        </mat-form-field>
-      </td>
-    </tr>
-    <tr>
-      <td><strong>Purpose</strong></td>
-      <td colspan="3">
-        <mat-form-field appearance="fill">
-          <mat-label>Purpose</mat-label>
-          <input matInput formControlName="purpose">
-        </mat-form-field>
-      </td>
-    </tr>
-    <tr>
-      <td><strong>Comments</strong></td>
-      <td colspan="3">
-        <mat-form-field appearance="fill">
-          <mat-label>Comments</mat-label>
-          <input matInput formControlName="comments">
-        </mat-form-field>
-      </td>
-    </tr>
-    <tr>
-      <td><strong>Injection</strong></td>
-      <td colSpan="3">
-        <mat-form-field appearance="fill">
-          <mat-label>Injection</mat-label>
-          <input matInput formControlName="injection">
-        </mat-form-field>
-      </td>
-    </tr>
-    </tbody>
-  </table>
-</form>
+<mat-tab-group>
+  <mat-tab label="Basic">
+    <form [formGroup]="animalModelFormGroup">
+      <table class="mat-table">
+        <tbody>
+        <tr>
+          <td><strong>Parents</strong></td>
+          <td>
+            <mat-form-field appearance="fill">
+              <mat-label>Parents</mat-label>
+              <input matInput formControlName="parents">
+            </mat-form-field>
+          </td>
+          <td><strong>Location</strong></td>
+          <td>
+            <mat-form-field appearance="fill">
+              <mat-label>Location</mat-label>
+              <input matInput formControlName="location">
+            </mat-form-field>
+          </td>
+        </tr>
+        <tr>
+          <td><strong>Pain Model</strong></td>
+          <td>
+            <mat-form-field appearance="fill">
+              <mat-label>Pain Model</mat-label>
+              <input matInput formControlName="painModel">
+            </mat-form-field>
+          </td>
+          <td><strong>Sex</strong></td>
+          <td>
+            <mat-button-toggle-group name="fontStyle" aria-label="Font Style" formControlName="sex">
+              <mat-button-toggle value="M">Male</mat-button-toggle>
+              <mat-button-toggle value="F">Female</mat-button-toggle>
+            </mat-button-toggle-group>
+          </td>
+        </tr>
+        <tr>
+          <td><strong>Purpose</strong></td>
+          <td colspan="3">
+            <mat-form-field appearance="fill">
+              <mat-label>Purpose</mat-label>
+              <input matInput formControlName="purpose">
+            </mat-form-field>
+          </td>
+        </tr>
+        <tr>
+          <td><strong>Comments</strong></td>
+          <td colspan="3">
+            <mat-form-field appearance="fill">
+              <mat-label>Comments</mat-label>
+              <input matInput formControlName="comments">
+            </mat-form-field>
+          </td>
+        </tr>
+        <tr>
+          <td><strong>Injection</strong></td>
+          <td colSpan="3">
+            <mat-form-field appearance="fill">
+              <mat-label>Injection</mat-label>
+              <input matInput formControlName="injection">
+            </mat-form-field>
+          </td>
+        </tr>
+        </tbody>
+      </table>
+    </form>
+  </mat-tab>
+  <mat-tab label="Dates">
+    <form [formGroup]="animalModelFormGroup">
+      <table class="mat-table">
+        <tbody>
+        <tr>
+          <td><strong>Date of Birth</strong></td>
+          <td>
+            <mat-form-field appearance="fill">
+              <mat-label>Date of Birth</mat-label>
+              <input matInput [matDatepicker]="dob" formControlName="dob">
+              <mat-hint>MM/DD/YYYY</mat-hint>
+              <mat-datepicker-toggle matSuffix [for]="dob"></mat-datepicker-toggle>
+              <mat-datepicker #dob></mat-datepicker>
+            </mat-form-field>
+          </td>
+          <td><strong>Surgery Date</strong></td>
+          <td>
+            <mat-form-field appearance="fill">
+              <mat-label>Surgery Date</mat-label>
+              <input matInput [matDatepicker]="surgeryDate" formControlName="surgeryDate">
+              <mat-hint>MM/DD/YYYY</mat-hint>
+              <mat-datepicker-toggle matSuffix [for]="surgeryDate"></mat-datepicker-toggle>
+              <mat-datepicker #surgeryDate></mat-datepicker>
+            </mat-form-field>
+          </td>
+        </tr>
+        <tr>
+          <td><strong>Sacrificed Date</strong></td>
+          <td>
+            <mat-form-field appearance="fill">
+              <mat-label>Sacrificed Date</mat-label>
+              <input matInput [matDatepicker]="sacDate" formControlName="sacDate">
+              <mat-hint>MM/DD/YYYY</mat-hint>
+              <mat-datepicker-toggle matSuffix [for]="sacDate"></mat-datepicker-toggle>
+              <mat-datepicker #sacDate></mat-datepicker>
+            </mat-form-field>
+          </td>
+          <td><strong>Sectioned Date</strong></td>
+          <td>
+            <mat-form-field appearance="fill">
+              <mat-label>Sectioned Date</mat-label>
+              <input matInput [matDatepicker]="sectionDate" formControlName="sectionDate">
+              <mat-hint>MM/DD/YYYY</mat-hint>
+              <mat-datepicker-toggle matSuffix [for]="sectionDate"></mat-datepicker-toggle>
+              <mat-datepicker #sectionDate></mat-datepicker>
+            </mat-form-field>
+          </td>
+        </tr>
+        <tr>
+          <td><strong>Mounted Date</strong></td>
+          <td>
+            <mat-form-field appearance="fill">
+              <mat-label>Mounted Date</mat-label>
+              <input matInput [matDatepicker]="mounted" formControlName="mounted">
+              <mat-hint>MM/DD/YYYY</mat-hint>
+              <mat-datepicker-toggle matSuffix [for]="mounted"></mat-datepicker-toggle>
+              <mat-datepicker #mounted></mat-datepicker>
+            </mat-form-field>
+          </td>
+          <td><strong>Cryoprotect Date</strong></td>
+          <td>
+            <mat-form-field appearance="fill">
+              <mat-label>Cryoprotect Date</mat-label>
+              <input matInput [matDatepicker]="cryoprotect" formControlName="cryoprotect">
+              <mat-hint>MM/DD/YYYY</mat-hint>
+              <mat-datepicker-toggle matSuffix [for]="cryoprotect"></mat-datepicker-toggle>
+              <mat-datepicker #cryoprotect></mat-datepicker>
+            </mat-form-field>
+          </td>
+        </tr>
+        </tbody>
+      </table>
+    </form>
+  </mat-tab>
+</mat-tab-group>

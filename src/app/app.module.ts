@@ -32,6 +32,7 @@ import { DetailsTableComponent } from './component/modal/animal-details/details-
 import { EditDetailsTableComponent } from './component/modal/animal-details/edit-details-table/edit-details-table.component';
 import {MatDatepickerModule} from "@angular/material/datepicker";
 import {MatNativeDateModule} from "@angular/material/core";
+import {MatTabsModule} from "@angular/material/tabs";
 
 @NgModule({
   declarations: [
@@ -61,6 +62,7 @@ import {MatNativeDateModule} from "@angular/material/core";
     MatDialogModule,
     MatDatepickerModule,
     MatNativeDateModule,
+    MatTabsModule,
     DragDropModule,
     MatButtonToggleModule,
     HttpClientModule,
